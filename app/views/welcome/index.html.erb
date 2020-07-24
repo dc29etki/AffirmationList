@@ -1,0 +1,102 @@
+<%= javascript_include_tag "application" %>
+<div id="content-area">
+  <div class="header text-center m-3">
+    <%= image_tag "logo-main.png"%>
+  </div>
+  <hr>
+  
+
+  
+  <div class="question pt-3 px-3">Which area of my life do I want to improve the most?</div>
+  
+  <div class="quiz mx-auto">
+    <div class="justify-content-center">      
+      
+      <div class="row">
+                
+        <div class="col-12">
+          <div class="row justify-content-center">
+            <div class="box col-md-3 m-2" onclick="quiz('q1','career')">
+              <div class="question-image">
+                <%= image_tag "question1/career.jpg"%>
+                <div class="centered">
+                  <div class="transbox">
+                    <span>Career</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box col-md-3 m-2" onclick="quiz('q1','money')">
+              <div class="question-image">
+                <%= image_tag "question1/money.jpg"%>
+                <div class="centered">
+                  <div class="transbox">
+                    <span>Money</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box col-md-3 m-2" onclick="quiz('q1','love')">
+              <div class="question-image">
+                <%= image_tag "question1/love.jpg"%>
+                <div class="centered">
+                  <div class="transbox">
+                    <span>Love</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="row justify-content-center">
+            <div class="box col-md-3 m-2" onclick="quiz('q1','health')">
+              <div class="question-image">
+                <%= image_tag "question1/health2.png"%>
+                <div class="centered">
+                  <div class="transbox">
+                    <span>Health</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box col-md-3 m-2" onclick="quiz('q1','spirituality')">
+              <div class="question-image">
+                <%= image_tag "question1/spirituality.jpg"%>
+                <div class="centered">
+                  <div class="transbox">
+                    <span>Spirituality</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box col-md-3 m-2" onclick="quiz('q1','Physical Space')">
+              <div class="question-image">
+                <%= image_tag "question1/mindset.jpg"%>
+                <div class="centered">
+                  <div class="transbox">
+                    <span>Physical Space</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+            
+    </div>
+  </div>
+  
+  <div class="footer text-center">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <div class="bottom w-100 text-right">
+    <div>&copy; 2020 Uppermation</div>
+    <div><a href="mailto:davidetkin@davidetkin.com">Contact Webmaster</a></div>
+  </div>
+  
+</div>

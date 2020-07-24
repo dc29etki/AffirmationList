@@ -1,0 +1,23 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#content-area {
+  .logo-text {
+    text-transform: uppercase;
+    font-family: Arial Narrow,Arial,sans-serif;
+    font-size: 2.5vw;
+    .aff {
+      color: white;
+    }
+    .room {
+      color: #3292cb;
+    }
+  }
+  .welcome-text {
+    font-size: 2vw;
+  }
+  .btn-small {
+    font-size: 1.5vw !important;
+  }
+}

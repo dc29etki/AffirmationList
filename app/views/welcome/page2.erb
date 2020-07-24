@@ -1,0 +1,63 @@
+<div id="content-area">
+  <div class="header text-center m-3">
+    <%= image_tag "logo-main.png"%>
+  </div>
+  <hr>  
+  <div class="question">What is your answer to this question?</div>
+  
+  <div class="quiz mx-auto">
+    <div class="justify-content-center">
+      
+      <div class="row">
+        
+        <div class="col-12">
+          <div class="row justify-content-center">
+            <div class="box col-md-3 m-2 " onclick="quiz('q2','one')">
+              one
+            </div>
+            <div class="box col-md-3 m-2 " onclick="quiz('q2','two')">
+              two
+            </div>
+            <div class="box col-md-3 m-2 " onclick="quiz('q2','three')">
+              three
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="box col-md-3 m-2 " onclick="quiz('q2','four')">
+              four
+            </div>
+            <div class="box col-md-3 m-2 " onclick="quiz('q2','five')">
+              five
+            </div>
+            <div class="box col-md-3 m-2 " onclick="quiz('q2','six')">
+              six
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="footer text-center">
+    <span class="dot"></span>
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+  
+  <div class="row text-center mt-3">
+    <div onclick="goback()" class="button top btn btn-dark text-center mx-auto"> Previous Question </div>
+  </div>
+  <div class="row text-center mt-3">
+    <a href="/welcome/index" class="button btn btn-dark text-center mx-auto"> Start Over </a>
+  </div>
+  
+  <div class="bottom w-100 text-right">
+    <div>&copy; 2020 Uppermation</div>
+    <div><a href="mailto:davidetkin@davidetkin.com">Contact Webmaster</a></div>
+  </div>
+  
+</div>

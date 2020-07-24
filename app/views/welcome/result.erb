@@ -1,0 +1,58 @@
+<div id="welcome_result">
+  <div id="content-area">
+    <div class="header text-center m-3">
+      <%= image_tag "logo-main.png"%>
+    </div>
+    <hr>  
+    <div class="quiz mx-auto">
+      <div>
+        
+        <div class="affirmation px-5">
+          "<%= @affirmation.affirmation %>"
+        </div>
+      
+        <div class="result text-center mx-auto m-5 p-5 border">
+        
+          <div class="font-weight-bold answer my-2">You answered:</div>
+          <div>
+            Question 1:
+            <span id="result1"></span>
+          </div>
+          <div>
+            Question 2:
+            <span id="result2"></span>
+          </div>
+          <div>
+            Question 3:
+            <span id="result3"></span>
+          </div>
+          <div>
+            Question 4:
+            <span id="result4"></span>
+          </div>
+        
+      </div>
+    </div>
+  
+    <div class="row text-center mt-3">
+      <a href="/welcome/index" class="button btn btn-dark text-center mx-auto"> Start Over </a>
+    </div>
+  
+  </div>
+  <div class="bottom w-100 text-right">
+    <div>&copy; 2020 Uppermation</div>
+    <div><a href="mailto:davidetkin@davidetkin.com">Contact Webmaster</a></div>
+  </div>
+</div>
+
+<script>
+  var q1 = sessionStorage.getItem('q1');
+  var q2 = sessionStorage.getItem('q2');
+  var q3 = sessionStorage.getItem('q3');
+  var q4 = sessionStorage.getItem('q4');
+  
+  document.getElementById("result1").innerHTML = q1;
+  document.getElementById("result2").innerHTML = q2;
+  document.getElementById("result3").innerHTML = q3;
+  document.getElementById("result4").innerHTML = q4;
+</script>
