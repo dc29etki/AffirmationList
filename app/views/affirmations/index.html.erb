@@ -2,16 +2,27 @@
 <div id="content-area">
   <h1 class="text-center p-3">All Affirmations</h1>
   <div class="list">
+    <div class="inside">
+      
+      <div class="row">
+        <div class="col-md-8">
+          <div class="font-weight-bold">Affirmation</div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="font-weight-bold">Category</div>
+        </div>
+      </div>
       <% @affirmations.each do |a| %>
-        <div class="row">
+        <div class="row rowborder">
           <div class="col-md-8">
             <div class="item"><%= a.affirmation %></div>
           </div>
-          <div class="col-md-4">
-            <div class="item"><%= a.affirmation %></div>
+          <div class="col-md-4 text-center">
+            <div class="item category"><%= a.category %></div>
           </div>
         </div>
       <% end %>
+    </div>
   </div>
   <%= render "shared/footer" %>
 </div>
