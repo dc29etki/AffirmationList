@@ -1131,3 +1131,23 @@ Completed 200 OK in 2621ms (Views: 2618.0ms | ActiveRecord: 0.0ms)
 Completed 200 OK in 5890ms (Views: 5882.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-07-30 18:34:28 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (504.4ms)
+Completed 200 OK in 648ms (Views: 639.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-30 18:34:50 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (44.7ms)
+Completed 200 OK in 87ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
