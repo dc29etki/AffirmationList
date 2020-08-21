@@ -3221,3 +3221,522 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 1226ms (Views: 1223.0ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/" for ::1 at 2020-08-20 23:14:29 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.2ms)
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (388.2ms)
+Completed 200 OK in 502ms (Views: 490.5ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:26:54 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.2ms)
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (124.9ms)
+Completed 200 OK in 1721ms (Views: 1718.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:28:19 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.2ms)
+  [1m[36mBlog Load (0.6ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (861.2ms)
+Completed 200 OK in 932ms (Views: 919.5ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:28:40 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (55.4ms)
+Completed 200 OK in 103ms (Views: 99.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:29:37 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.2ms)
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (429.2ms)
+Completed 200 OK in 488ms (Views: 476.0ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:29:38 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.3ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (54.6ms)
+Completed 200 OK in 103ms (Views: 99.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:29:39 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.2ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (57.5ms)
+Completed 200 OK in 100ms (Views: 97.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:29:40 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.3ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (50.1ms)
+Completed 200 OK in 97ms (Views: 94.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:29:40 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (61.2ms)
+Completed 200 OK in 110ms (Views: 106.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:29:59 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (44.6ms)
+Completed 200 OK in 91ms (Views: 89.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:30:31 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.3ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (50.1ms)
+Completed 200 OK in 94ms (Views: 91.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:30:43 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.2ms)
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (52.6ms)
+Completed 200 OK in 113ms (Views: 110.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:31:43 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.2ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (55.1ms)
+Completed 200 OK in 104ms (Views: 100.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:31:44 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (60.8ms)
+Completed 200 OK in 109ms (Views: 105.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:33:21 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (50.7ms)
+Completed 200 OK in 96ms (Views: 92.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:38:18 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.2ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (54.6ms)
+Completed 200 OK in 100ms (Views: 97.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:38:53 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.1ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (88.4ms)
+Completed 200 OK in 1636ms (Views: 1631.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:40:48 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  [1m[36mBlog Load (0.6ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (77.6ms)
+Completed 200 OK in 1261ms (Views: 1257.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:41:16 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (56.0ms)
+Completed 200 OK in 111ms (Views: 107.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:41:31 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.3ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (52.1ms)
+Completed 200 OK in 100ms (Views: 96.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:42:53 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (59.7ms)
+Completed 200 OK in 1266ms (Views: 1263.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:43:46 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (65.4ms)
+Completed 200 OK in 1308ms (Views: 1305.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:46:03 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1399.5ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (1562.1ms)
+Completed 200 OK in 1632ms (Views: 1628.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:46:36 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.1ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (50.2ms)
+Completed 200 OK in 1292ms (Views: 1288.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:47:31 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.3ms)
+  [1m[36mBlog Load (0.6ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (66.4ms)
+Completed 200 OK in 1316ms (Views: 1312.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:48:37 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.3ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (64.8ms)
+Completed 200 OK in 1376ms (Views: 1372.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:48:58 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (54.3ms)
+Completed 200 OK in 1316ms (Views: 1307.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:49:04 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (58.4ms)
+Completed 200 OK in 1337ms (Views: 1334.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:49:09 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (58.6ms)
+Completed 200 OK in 1261ms (Views: 1258.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:50:39 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (57.0ms)
+Completed 200 OK in 1296ms (Views: 1292.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:50:51 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (59.5ms)
+Completed 200 OK in 117ms (Views: 114.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:51:18 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.3ms)
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 104ms (Views: 101.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:51:24 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (60.8ms)
+Completed 200 OK in 110ms (Views: 106.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:51:36 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.3ms)
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (53.0ms)
+Completed 200 OK in 109ms (Views: 105.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:51:40 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.2ms)
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (49.8ms)
+Completed 200 OK in 100ms (Views: 97.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:51:51 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (57.9ms)
+Completed 200 OK in 107ms (Views: 104.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:51:57 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (50.9ms)
+Completed 200 OK in 108ms (Views: 104.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:52:25 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (53.2ms)
+Completed 200 OK in 1333ms (Views: 1330.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:55:16 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.2ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (63.1ms)
+Completed 500 Internal Server Error in 273ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "...;    /* text */": expected "}", was ""
+        on line 5:35 of app/assets/stylesheets/colors.scss
+        from line 20:1 of app/assets/stylesheets/application.scss
+>>   --color4: #E6B89C;    /* text */
+
+   ----------------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/colors.scss:5
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3095159694483306499_70310240926920'
+Started GET "/" for ::1 at 2020-08-20 23:55:31 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.3ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (54.6ms)
+Completed 200 OK in 1241ms (Views: 1237.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:56:01 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (72.1ms)
+Completed 200 OK in 1311ms (Views: 1307.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:56:16 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (67.2ms)
+Completed 200 OK in 1315ms (Views: 1311.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:56:32 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.3ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (61.6ms)
+Completed 200 OK in 1353ms (Views: 1349.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:57:15 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (59.8ms)
+Completed 200 OK in 113ms (Views: 109.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 23:57:32 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (66.1ms)
+Completed 200 OK in 117ms (Views: 114.0ms | ActiveRecord: 0.3ms)
+
+

@@ -2,7 +2,7 @@
   <header class="clearfix">
     <div class="container">
 			<div class="header-left">
-				<%= image_tag "logo"%>
+				<%= image_tag "logo-white"%>
 			</div>
 			<div class="header-right">
 				<label for="open">
@@ -20,7 +20,7 @@
 	</header>
 </div>
 
-<style>
+<style lang="scss">
   .logo-text {
     text-transform: uppercase;
     font-family: Arial Narrow,Arial,sans-serif;
@@ -62,7 +62,7 @@
     header{
     	width: 100%;
     	height: auto;
-    	background: #BD58FF !important;
+    	background: var(--color1) !important;
     }
     img {
       height: 50px;
@@ -369,7 +369,7 @@
   header{
   	width: 100%;
   	height: auto;
-  	background: #222;
+  	background: var(--color1);
   }
   .header-left,
   .header-right{

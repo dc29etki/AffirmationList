@@ -16,6 +16,7 @@ gem 'jbuilder', '~> 2.5'
 gem  'meta-tags'
 gem 'rails_admin', '~> 2.0'
 gem 'devise'
+gem "sass_rails_patch", "~> 0.0.1"
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
