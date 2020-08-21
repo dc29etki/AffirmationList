@@ -2,7 +2,7 @@
   <header class="clearfix">
     <div class="container">
 			<div class="header-left">
-				<h1 class="logo-text"><span class="aff">Affirmation</span> <span class="room">List</span></h1>
+				<%= image_tag "logo.png"%>
 			</div>
 			<div class="header-right">
 				<label for="open">
@@ -12,15 +12,15 @@
 				<nav>
 					<a href="/">Home</a>
 					<a href="/affirmations">Affirmations</a>
-					<a href="#">Placeholder</a>
-					<a href="#">Placeholder</a>
+					<a href="#">Blog</a>
+					<a href="#">About</a>
 				</nav>
 			</div>
 		</div>
 	</header>
 </div>
 
-<style scoped>
+<style>
   .logo-text {
     text-transform: uppercase;
     font-family: Arial Narrow,Arial,sans-serif;
@@ -30,7 +30,7 @@
     color: white;
   }
   .room {
-    color: #3292cb;
+    color: #3D90A8;
   }
     *{
       margin: 0;
@@ -62,13 +62,20 @@
     header{
     	width: 100%;
     	height: auto;
-    	background: #222;
+    	background: #BD58FF !important;
+    }
+    img {
+      height: 50px;
+      width: auto;
+      margin-top: 5px;
+      margin-bottom: 5px;
     }
     .header-left,
     .header-right{
     	position: relative;
     	color: white;
     	float: left;
+      height: 100% !important;
     }
     .header-left{
     	width: 30%;
@@ -116,10 +123,16 @@
     a{
     	text-decoration: none;
     	color: white;
+      
+      
     }
     .clearfix {
       padding-top: 10px;
       padding-bottom: 10px;
+    }
+    nav {
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
     nav>a{
     	position: relative;
@@ -128,6 +141,7 @@
     	line-height: 40px;
     	padding: 0 2em;
     	-webkit-transition: all .3s ease;
+      
     }
     nav>a:hover{
     	background: rgba(255,255,255,.9);

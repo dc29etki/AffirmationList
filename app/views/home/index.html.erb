@@ -1,12 +1,143 @@
 <%= javascript_include_tag "application" %>
 <div id="content-area">
- <%= render "shared/navbar" %>
+  <%= render "shared/navbar" %>
   
-  <div class="text-center m-5 w-75 mx-auto mt-5 pt-5">
-    <div class="welcome-text">Welcome To Affirmation List!</div>
-    <a class="btn btn-info btn-small my-5" style="width: 35%;" href="/affirmations">Check out our affirmations now!</a>
-  </div>
+  <div class="w-100">
+    <div class="text-center">
+      <hr class="m-0">
+      <div class="s1">
+        <h1>Welcome to AffirmationList!</h1>
+        <h4>The largest list of affirmations ever compiled!</h4>
+        <div class="buttons">
+          <a href="/affirmations" class="btn color2 bigbutton btn-primary mt-5">Go to Affirmation List</a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center pb-5" style="background: #ddd;">
+      <hr class="m-0">
+      <div class="mx-auto w-100">
+        <h3 class="mt-5" style="color:#777; font-weight:bold;">Login or Sign Up Now!<br></h3>
+        <a href="/affirmations" class="btn color2 btn-primary mt-2">Login</a>
+        <a href="/affirmations" class="btn color2 btn-primary mt-2">Sign Up</a>
+      </div>
+    </div>
+    <div class="text-center mb-5">
+      <hr class="mt-0 mb-0">
+        <h3 class="mt-5" style="color:#777; font-weight:bold;">Articles</h3>
+           <div class="container mt-5">
+              <div class="row">
+                
+                
+                
+                <% @blogs.each do |blog| %>
+                  <div class="col-md-4">
+                      <div class="card-box">
+                          <div class="card-title">
+                              <h2><%= blog.title %></h2>
+                              <p style="height: 10vh; overflow: scroll;"><%= blog.text %></p>
+                          </div>
+                          <div class="card-link">
+                              <a href="" class="c-link">Learn More
+                                  <i class="fa fa-angle-right"></i>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                <% end %>
 
+              </div>
+          </div>
+    </div>
+  </div>
   
   <%= render "shared/footer" %>
 </div>
+
+<style>
+  
+  @import url('https://fonts.googleapis.com/css?family=Oswald|Poppins');
+  body {
+      /* font-family: 'Oswald', sans-serif; */
+      font-family: 'Poppins', sans-serif;
+  }
+
+  .card-box {
+      background: #FAFAFA;
+      min-height: 300px;
+      position: relative;
+      padding: 30px 30px 20px;
+      margin-bottom: 20px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      position: relative;
+      cursor: pointer;
+  }
+
+  .card-box:hover {
+      background: linear-gradient(to right, #1fa2ff17 0%, #12d8fa2b 51%, #1fa2ff36 100%);
+  }
+
+  .card-box:after {
+      display: block;
+      background: #2196F3;
+      border-top: 2px solid #327D97;
+      content: '';
+      width: 100%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+  }
+
+  .card-title h2 {
+      margin: 0;
+      padding-top: 5%;
+      color: #327D97;
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
+      font-size: 24px;
+      line-height: 1;
+      margin-bottom: 15px;
+  }
+
+  .card-title p {
+      margin: 0;
+      margin-bottom: 10px;
+      font-size: 16px;
+  }
+
+  .card-link a {
+      text-decoration: none;
+      font-family: 'Oswald', sans-serif;
+      color: #A6B86F;
+      font-size: 15px;
+  }
+  
+  
+  .s1{
+    background: #B4C282;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+  }
+  h1{
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+  }
+  h4{
+    color: #777;
+  }
+  .color2{
+    background: #3D90A8 !important;
+    border: #3D90A8 !important;
+  }
+  .bigbutton{
+    padding: 2vh;
+    font-weight: bold;
+  }
+</style>
