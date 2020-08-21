@@ -3199,3 +3199,25 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 1241ms (Views: 1239.0ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/" for ::1 at 2020-08-20 21:48:34 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.4ms)
+  [1m[36mBlog Load (0.6ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (66.7ms)
+Completed 200 OK in 1249ms (Views: 1245.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-08-20 21:49:05 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (65.2ms)
+Completed 200 OK in 1226ms (Views: 1223.0ms | ActiveRecord: 0.3ms)
+
+
