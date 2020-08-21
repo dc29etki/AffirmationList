@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 html body {
-  background: #eee;
+  background: var(--main-bg);
   .list {
     background: white;
     width: 75%;
