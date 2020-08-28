@@ -18,12 +18,18 @@
 @import "font-awesome";
 @import "colors";
 
-html {
+html, body {
+  height: 100%;
   font-family: Calabri !important;
   color: var(--color4) !important;
+  position:relative; 
+      margin:0;
+      padding:0;
+      overflow:auto;
 }
 .bottom {
   position: absolute;
+  width: 100%;
   bottom: 0;
 }
 
