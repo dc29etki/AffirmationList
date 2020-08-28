@@ -5743,3 +5743,1109 @@ Migrating to AddSafeNameCategories (20200828002106)
   ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+Started GET "/affirmations" for ::1 at 2020-08-27 20:25:08 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 113ms (Views: 102.3ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:25:16 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 83ms (Views: 79.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:25:21 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 89ms (Views: 85.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:25:22 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 84ms (Views: 80.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:25:33 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (7.4ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 84ms (Views: 80.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:25:38 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 81ms (Views: 77.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:25:52 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 77ms (Views: 73.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:26:01 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 81ms (Views: 77.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:26:02 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 91ms (Views: 87.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:26:22 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (7.0ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 106ms (Views: 102.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:26:26 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 117ms (Views: 113.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:26:41 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 79ms (Views: 75.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:26:45 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 89ms (Views: 85.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:27:44 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 80ms (Views: 76.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:27:50 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 82ms (Views: 78.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:28:46 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 73ms (Views: 69.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:28:54 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 85ms (Views: 81.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:30:10 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 95ms (Views: 91.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:30:46 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 84ms (Views: 80.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:30:47 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 86ms (Views: 82.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:31:18 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:18
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 78ms (Views: 74.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:31:40 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 92ms (Views: 88.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:31:48 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 75ms (Views: 72.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:31:54 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 89ms (Views: 84.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:32:03 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 77ms (Views: 73.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:32:29 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 85ms (Views: 81.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:32:36 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 78ms (Views: 74.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:32:41 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 72ms (Views: 69.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:33:13 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:27
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:28
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 93ms (Views: 89.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:34:39 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.8ms)
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:27
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:28
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 97ms (Views: 92.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:34:48 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:27
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:28
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 86ms (Views: 82.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:35:03 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 82ms (Views: 78.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:35:25 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.6ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 84ms (Views: 80.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:35:28 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 85ms (Views: 81.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:36:01 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 112ms (Views: 108.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:36:17 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 107ms (Views: 102.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:36:19 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 83ms (Views: 79.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:36:27 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 85ms (Views: 81.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:37:33 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 89ms (Views: 85.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:38:03 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 77ms (Views: 73.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:38:28 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 100ms (Views: 96.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:38:35 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 81ms (Views: 77.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:38:50 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 100ms (Views: 95.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:38:54 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 82ms (Views: 78.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:39:09 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 91ms (Views: 87.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:39:13 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 91ms (Views: 86.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:39:20 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 82ms (Views: 78.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:39:25 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 91ms (Views: 87.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:39:31 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 86ms (Views: 82.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:40:13 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 89ms (Views: 85.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:40:27 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 89ms (Views: 86.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:40:31 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 100ms (Views: 97.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:40:32 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.4ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 128ms (Views: 124.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:40:35 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 83ms (Views: 79.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:40:42 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 88ms (Views: 85.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:40:53 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 83ms (Views: 79.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:41:12 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 93ms (Views: 89.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:41:23 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 84ms (Views: 80.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:41:30 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 82ms (Views: 78.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:41:51 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 90ms (Views: 86.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:42:37 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 82ms (Views: 78.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:43:00 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 90ms (Views: 86.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:43:09 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 85ms (Views: 82.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:43:56 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 86ms (Views: 83.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:43:57 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 94ms (Views: 90.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:44:04 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 120ms (Views: 115.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:44:13 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.0ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 100ms (Views: 96.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:44:58 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 96ms (Views: 92.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:44:59 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 87ms (Views: 83.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:45:56 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 95ms (Views: 91.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:46:04 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 83ms (Views: 79.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:46:04 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 98ms (Views: 93.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:46:16 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 82ms (Views: 79.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:46:27 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 84ms (Views: 80.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:46:34 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 85ms (Views: 81.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:47:07 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered affirmations/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 78ms (Views: 75.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:47:34 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 94ms (Views: 90.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:47:58 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 124ms (Views: 120.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:48:30 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (11.0ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 91ms (Views: 87.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:49:08 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered affirmations/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 102ms (Views: 98.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-27 20:49:20 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.2ms)
+  [1m[36mBlog Load (0.9ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (57.0ms)
+Completed 200 OK in 114ms (Views: 104.4ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:49:22 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.4ms)
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 100ms (Views: 95.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2020-08-27 20:49:23 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (89.3ms)
+Completed 200 OK in 153ms (Views: 149.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-27 20:49:43 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (8.5ms)
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (97.1ms)
+Completed 200 OK in 144ms (Views: 141.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:49:44 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 91ms (Views: 87.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-08-27 20:50:16 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered affirmations/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 92ms (Views: 88.8ms | ActiveRecord: 0.5ms)
+
+
