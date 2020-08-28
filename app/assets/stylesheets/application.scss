@@ -17,3 +17,12 @@
 @import "bootstrap";
 @import "font-awesome";
 @import "colors";
+
+html {
+  font-family: Calabri !important;
+  color: var(--color4) !important;
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+}

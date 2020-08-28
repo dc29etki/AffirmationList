@@ -1,28 +1,83 @@
+<head>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
 <%= render "shared/navbar" %>
 <div id="content-area">
-  <h1 class="text-center p-3">All Affirmations</h1>
-  <div class="list">
-    <div class="inside">
-      
-      <div class="row">
-        <div class="col-md-8">
-          <div class="font-weight-bold">Affirmation</div>
-        </div>
-        <div class="col-md-4 text-center">
-          <div class="font-weight-bold">Category</div>
-        </div>
-      </div>
-      <% @affirmations.each do |a| %>
-        <div class="row rowborder">
-          <div class="col-md-8">
-            <div class="item"><%= a.affirmation %></div>
-          </div>
-          <div class="col-md-4 text-center">
-            <div class="item category"><%= a.category %></div>
-          </div>
-        </div>
-      <% end %>
-    </div>
+  <div>
+    
+    <section id="tabs">
+    	<div class="container">
+    		<h1 class="text-center">Categories</h1>
+    		<div class="row">
+    			<div class="col-xs-12 ">
+    				<nav>
+    					<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+    						<a class="nav-item nav-link active" id="nav-<%= @categories.first.category_safe %>-tab" data-toggle="tab" href="#nav-<%= @categories.first.category_safe %>" role="tab" aria-controls="nav-<%= @categories.first.category_safe %>" aria-selected="true"><%= @categories.first.category %></a>
+                <% @categories.drop(1).each do |c| %>
+      						<a class="nav-item nav-link" id="nav-<%= c.category_safe %>-tab" data-toggle="tab" href="#nav-<%= c.category_safe %>" role="tab" aria-controls="nav-<%= c.category_safe %>" aria-selected="true"><%= c.category %></a>
+                <% end %>
+    					</div>
+    				</nav>
+  					  
+    					
+            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+      					<div class="tab-pane fade show active" id="nav-<%= @categories.first.category_safe %>" role="tabpanel" aria-labelledby="nav-<%= @categories.first.category_safe %>-tab">
+      					  <%= @categories.first.category %>
+                </div>
+                <% @categories.drop(1).each do |c| %>
+      				  	<div class="tab-pane fade" id="nav-<%= c.category_safe %>" role="tabpanel" aria-labelledby="nav-<%= c.category_safe %>-tab">
+      				  	  <%= c.category %>
+                  </div>
+                <% end %>
+    				</div>
+			
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    
   </div>
   <%= render "shared/footer" %>
 </div>
+
+<style>
+  /* Tabs*/
+  section {
+      padding: 60px 0;
+  }
+
+  section .section-title {
+      text-align: center;
+      color: var(--color4);
+      margin-bottom: 50px;
+      text-transform: uppercase;
+  }
+  #tabs{
+  	background: var(--color2);
+      color: var(--color4);
+  }
+  #tabs h6.section-title{
+      color: var(--color4);
+  }
+
+  #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+      color: white !important;
+      background-color: var(--color3);
+      border-color: white;
+      border-bottom: 2px solid !important;
+      font-size: 20px;
+  }
+  #tabs .nav-tabs .nav-link {
+    border: 1px solid var(--color3);
+    margin: 5px 5px 0 5px;
+      border-top-left-radius: .25rem;
+      border-top-right-radius: .25rem;
+      color: var(--color4);
+      font-size: 20px;
+  }
+  #tabs a:hover {
+    background-color:rgba(159, 39, 79, 0.5);"
+  }
+</style>
