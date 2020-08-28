@@ -3,7 +3,7 @@
 <div id=#content-area>
   <h1 class="text-center mt-5"><%= @blog.title %></h1>
   
-  <div class="blogs w-75 mx-auto m-5 border p-5">
+  <div class="blogs w-75 mx-auto m-5 p-5">
     <div class="row">
       
      <p><%= @blog.text %></p>
@@ -19,5 +19,8 @@
   p {
     font-size: 18pt;
     padding: 50px;
+  }
+  .blogs {
+    border: 5px solid var(--color3);
   }
 </style>

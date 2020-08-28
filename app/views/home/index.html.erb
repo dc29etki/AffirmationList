@@ -30,13 +30,13 @@
                 
                 
                 <% @blogs.each do |blog| %>
-                      <div class="card-box m-5" style="width: 35%;">
+                      <div class="card-box m-5" style="width: 35%;" onclick="router.push('/view-blog/<%= blog.id %>')">
                           <div class="card-title">
                               <h2><%= blog.title %></h2>
                               <p style="height: 10vh; overflow: scroll;"><%= blog.text %></p>
                           </div>
                           <div class="card-link">
-                              <a href="/view-blog/<%= blog.id %>" class="c-link">Learn More
+                              <a href="/view-blog/<%= blog.id %>" class="c-link" style="color: var(--color3); font-weight: bold;">Read More
                                   <i class="fa fa-angle-right"></i>
                               </a>
                           </div>
@@ -71,7 +71,7 @@
   }
 
   .card-box:hover {
-      background: linear-gradient(to right, #1fa2ff17 0%, #12d8fa2b 51%, #1fa2ff36 100%);
+      background: var(--mid-bg);
   }
 
   .card-box:after {
@@ -124,11 +124,12 @@
   }
   .color2{
     background: var(--color3) !important;
-    border: var(--color3) !important;
+    border: var(--color3);
   }
   .bigbutton{
     padding: 2vh;
     font-weight: bold;
+    border: 2px solid var(--color1);
   }
   .row {
     display: flex;
