@@ -1,0 +1,125 @@
+<%= render "shared/navbar" %>
+
+<div id=#content-area>
+  <h1 class="text-center mt-5">Blogs</h1>
+  
+  <div class="blogs w-75 mx-auto m-5 p-5">
+    <div class="row">
+      
+      
+      
+      <% @blogs.each do |blog| %>
+            <div class="card-box m-5" style="width: 35%;">
+                <div class="card-title">
+                    <h2><%= blog.title %></h2>
+                    <p style="height: 10vh; overflow: scroll;"><%= blog.text %></p>
+                </div>
+                <div class="card-link">
+                    <a href="/view-blog/<%= blog.id %>" class="c-link">Learn More
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+      <% end %>
+
+    </div>
+  </div>
+  
+</div>
+
+<%= render "shared/footer" %>
+
+<style>
+  
+  @import url('https://fonts.googleapis.com/css?family=Oswald|Poppins');
+  body {
+      /* font-family: 'Oswald', sans-serif; */
+      font-family: 'Poppins', sans-serif;
+  }
+
+  .card-box {
+      background: #FAFAFA;
+      min-height: 300px;
+      position: relative;
+      padding: 30px 30px 20px;
+      margin-bottom: 20px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      position: relative;
+      cursor: pointer;
+  }
+
+  .card-box:hover {
+      background: linear-gradient(to right, #1fa2ff17 0%, #12d8fa2b 51%, #1fa2ff36 100%);
+  }
+
+  .card-box:after {
+      display: block;
+      background: #2196F3;
+      border-top: 2px solid var(--color4);
+      content: '';
+      width: 100%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+  }
+
+  .card-title h2 {
+      margin: 0;
+      padding-top: 5%;
+      color: var(--color4);
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
+      font-size: 24px;
+      line-height: 1;
+      margin-bottom: 15px;
+  }
+
+  .card-title p {
+      margin: 0;
+      margin-bottom: 10px;
+      font-size: 16px;
+  }
+
+  .card-link a {
+      text-decoration: none;
+      font-family: 'Oswald', sans-serif;
+      color: var(--color4);
+      font-size: 15px;
+  }
+  
+  
+  .s1{
+    background: var(--color2);
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+  }
+  h1{
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+  }
+  h4{
+    color: #777;
+  }
+  .color2{
+    background: var(--color3) !important;
+    border: var(--color3) !important;
+  }
+  .bigbutton{
+    padding: 2vh;
+    font-weight: bold;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+</style>

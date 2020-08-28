@@ -1,0 +1,23 @@
+<%= render "shared/navbar" %>
+
+<div id=#content-area>
+  <h1 class="text-center mt-5"><%= @blog.title %></h1>
+  
+  <div class="blogs w-75 mx-auto m-5 border p-5">
+    <div class="row">
+      
+     <p><%= @blog.text %></p>
+
+    </div>
+  </div>
+  
+</div>
+
+<%= render "shared/footer" %>
+
+<style>
+  p {
+    font-size: 18pt;
+    padding: 50px;
+  }
+</style>
