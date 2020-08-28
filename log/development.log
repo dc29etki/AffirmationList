@@ -9474,3 +9474,122 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 138ms (Views: 131.5ms | ActiveRecord: 0.6ms)
 
 
+Started GET "/view-blog/2" for ::1 at 2020-08-28 12:35:08 -0400
+Processing by BlogController#viewblog as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/blog_controller.rb:6
+  Rendering blog/viewblog.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered blog/viewblog.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 134ms (Views: 128.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/view-blog/2" for ::1 at 2020-08-28 12:36:36 -0400
+Processing by BlogController#viewblog as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (0.9ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/blog_controller.rb:6
+  Rendering blog/viewblog.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered blog/viewblog.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 136ms (Views: 126.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/view-blog/2" for ::1 at 2020-08-28 12:36:46 -0400
+Processing by BlogController#viewblog as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (0.7ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/blog_controller.rb:6
+  Rendering blog/viewblog.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered blog/viewblog.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 124ms (Views: 116.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/view-blog/2" for ::1 at 2020-08-28 12:36:49 -0400
+Processing by BlogController#viewblog as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/blog_controller.rb:6
+  Rendering blog/viewblog.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered blog/viewblog.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 116ms (Views: 108.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/view-blog/2" for ::1 at 2020-08-28 12:36:55 -0400
+Processing by BlogController#viewblog as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/blog_controller.rb:6
+  Rendering blog/viewblog.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered blog/viewblog.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 109ms (Views: 105.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/view-blog/2" for ::1 at 2020-08-28 12:37:03 -0400
+Processing by BlogController#viewblog as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/blog_controller.rb:6
+  Rendering blog/viewblog.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered blog/viewblog.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 105ms (Views: 101.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/view-blog/2" for ::1 at 2020-08-28 12:37:15 -0400
+Processing by BlogController#viewblog as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/blog_controller.rb:6
+  Rendering blog/viewblog.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered blog/viewblog.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 115ms (Views: 108.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/view-blog/2" for ::1 at 2020-08-28 12:37:20 -0400
+Processing by BlogController#viewblog as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/blog_controller.rb:6
+  Rendering blog/viewblog.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered blog/viewblog.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 109ms (Views: 105.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/view-blog/2" for ::1 at 2020-08-28 12:37:24 -0400
+Processing by BlogController#viewblog as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/blog_controller.rb:6
+  Rendering blog/viewblog.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered blog/viewblog.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 104ms (Views: 99.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-28 12:39:34 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/home/index.html.erb:32
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (62.5ms)
+Completed 200 OK in 142ms (Views: 138.2ms | ActiveRecord: 0.3ms)
+
+
