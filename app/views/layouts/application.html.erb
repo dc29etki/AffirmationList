@@ -9,6 +9,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+  <%= render "shared/navbar" %>
   <body>
     <% if notice %>
       <p class="alert alert-success"><%= notice %></p>
@@ -18,4 +19,5 @@
     <% end %>
     <%= yield %>
   </body>
+  <%= render "shared/footer" %>
 </html>
