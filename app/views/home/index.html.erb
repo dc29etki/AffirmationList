@@ -1,36 +1,42 @@
 <%= javascript_include_tag "application" %>
+<%= render "shared/navbar" %>
+
 <div id="content-area">
-  <%= render "shared/navbar" %>
   
   <div class="w-100">
     <div class="text-center">
       <hr class="m-0">
       <div class="s1">
-        <h1 style="color: black;">Welcome to AffirmationList!</h1>
-        <h4>The largest list of affirmations ever compiled!</h4>
+        <h2 class="px-3 mx-5" style="color: white; font-size: 2.5rem;">Welcome to the largest list of personally written affirmations on the web.</h2>
         <div class="buttons">
-          <a href="/affirmations" class="btn color2 bigbutton btn-primary mt-5">Go to Affirmation List</a>
+          <a href="/affirmations" class="btn color2 bigbutton btn-primary px-3 mt-5 mx-4">Go to Affirmation List</a>
+          <br>
+          <a href="/view-blog/1" class="btn color2 p-3 btn-primary px-3 mt-5 mx-4">What are affirmations</a>
+          <a href="/view-blog/2" class="btn color2 p-3 btn-primary px-3 mt-5 mx-4">How to use affirmations</a>
         </div>
       </div>
     </div>
-    <div class="text-center pb-5" style="background: var(--mid-bg);">
-      <hr class="m-0">
-      <div class="mx-auto w-100">
-        <h3 class="mt-5" style="color:var(--color4); font-weight:bold;">Login or Sign Up Now!<br></h3>
-        <a href="/affirmations" class="btn color2 btn-primary mt-2">Login</a>
-        <a href="/affirmations" class="btn color2 btn-primary mt-2">Sign Up</a>
+    <div class="text-center" style="background: var(--mid-bg);">
+      <div class="mx-auto p-5 w-100">
+          <% if user_signed_in? %>
+            <h3 class="">Welcome Back, <strong><%= current_user.email %></strong></h3>
+          <% else %>
+            <h3 class="" style="color:var(--color4); font-weight:bold;">Login or Sign Up Now!<br></h3>
+            <a href="/users/sign_up" class="btn color2 btn-primary mt-2">Login</a>
+            <a href="/users/sign_in" class="btn color2 btn-primary mt-2">Sign Up</a>
+          <% end %>
+        
       </div>
     </div>
-    <div class="text-center mb-5">
-      <hr class="mt-0 mb-0">
-        <h3 class="mt-5" style="color:var(--color4); font-weight:bold;">Articles</h3>
+    <div class="text-center mb-5 pb-5">
+        <h3 class="mt-5" style="color:var(--color4); font-weight:bold;">Blog</h3>
            <div class="container mt-5">
-              <div class="row">
+              <div class="row pb-5">
                 
                 
                 
                 <% @blogs.each do |blog| %>
-                      <div class="card-box  mx-4" style="width: 35%;" onclick="router.push('/view-blog/<%= blog.id %>')">
+                      <div class="card-box mx-4" style="width: 35%;" onclick="router.push('/view-blog/<%= blog.id %>')">
                           <div class="card-title">
                               <h2><%= blog.title %></h2>
                               <p style="height: 10vh; overflow: scroll;"><%= blog.text %></p>
@@ -48,8 +54,9 @@
     </div>
   </div>
   
-  <%= render "shared/footer" %>
+ 
 </div>
+ <%= render "shared/footer" %>
 
 <style>
 
@@ -129,7 +136,7 @@
   .bigbutton{
     padding: 2vh;
     font-weight: bold;
-    border: 2px solid var(--color1);
+   /* border: 2px solid var(--color1);*/
   }
   .row {
     display: flex;

@@ -1,4 +1,11 @@
 <div class="head">
+  <% if current_user %>
+    <% if current_user.admin? %>
+      <div class="text-left" style="background: black;">
+        <a class="btn btn-light px-3 m-3" href="/admin" style="">Admin Panel</a>
+      </div>
+    <% end %>
+  <% end %>
   <header class="clearfix">
     <div class="container">
 			<div class="header-left">
@@ -13,14 +20,33 @@
 					<a href="/">Home</a>
 					<a href="/affirmations">Affirmations</a>
 					<a href="/blogs">Blog</a>
-					<!-- <a href="#">About</a> -->
+					<a href="#">About</a>
+          
+            <% if user_signed_in? %>
+            
+            <span class="login-links">
+              <%= link_to "Logout", destroy_user_session_path, :class => ''  %>
+            </span>            
+            <% else %>
+            <span class="login-links">
+              <%= link_to "Sign up", new_user_registration_path, :class => ''  %> |
+              <%= link_to "Login", new_user_session_path, :class => ''  %>
+            </span>
+            <% end %>
 				</nav>
 			</div>
 		</div>
 	</header>
 </div>
 
-<style lang="scss">
+<style>
+  .login-links {
+    border: 1px solid white;
+    padding: 10px;
+  }
+  .login-links a:hover {
+    color: lightblue;
+  }
   .logo-text {
     text-transform: uppercase;
     font-family: Arial Narrow,Arial,sans-serif;
@@ -86,18 +112,18 @@
     	right: 0;
     	cursor: pointer;
     }
-    .header-right span{
+    .header-right .span1{
     	position: relative;
     	width: 2em;
     	height: 2em;
     	background: rgba(255,255,255,.3);
     	-webkit-transition: all .3s ease;
     }
-    .header-right span:hover{
+    .header-right .span1:hover{
     	background: rgba(255,255,255,.6);
     }
-    .header-right span:before,
-    .header-right span:after{
+    .header-right .span1:before,
+    .header-right .span1:after{
     	content: '';
     	position: absolute;
     	width: 2em;
@@ -106,7 +132,7 @@
     	left: 0;
     	background: black;
     }
-    .header-right span:after{
+    .header-right .span1:after{
     	top: 14px;
     }
     .header-right{
@@ -134,7 +160,7 @@
       margin-top: 20px;
       margin-bottom: 20px;
     }
-    nav>a{
+    nav>a, nav>p{
     	position: relative;
     	display: inline-block;
     	font-size: 24px;
@@ -387,18 +413,18 @@
   	right: 0;
   	cursor: pointer;
   }
-  .header-right span{
+  .header-right .span1{
   	position: relative;
   	width: 2em;
   	height: 2em;
   	background: rgba(255,255,255,.3);
   	-webkit-transition: all .3s ease;
   }
-  .header-right span:hover{
+  .header-right .span1:hover{
   	background: rgba(255,255,255,.6);
   }
-  .header-right span:before,
-  .header-right span:after{
+  .header-right .span1:before,
+  .header-right .span1:after{
   	content: '';
   	position: absolute;
   	width: 2em;
@@ -407,7 +433,7 @@
   	left: 0;
   	background: black;
   }
-  .header-right span:after{
+  .header-right .span1:after{
   	top: 14px;
   }
   .header-right{
