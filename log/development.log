@@ -14206,3 +14206,115 @@ Completed 200 OK in 210ms (Views: 194.8ms | ActiveRecord: 2.8ms)
 Completed 200 OK in 156ms (Views: 155.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-09-02 12:23:31 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.6ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1[0m  [["pinned", true]]
+  ↳ app/views/home/index.html.erb:37
+  Rendered home/index.html.erb within layouts/application (49.6ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 107ms (Views: 103.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2020-09-02 12:23:33 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1[0m  [["pinned", true]]
+  ↳ app/views/home/index.html.erb:37
+  Rendered home/index.html.erb within layouts/application (51.0ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 110ms (Views: 106.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-09-02 12:24:11 -0400
+Processing by HomeController#index as HTML
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1 LIMIT $2[0m  [["pinned", true], ["LIMIT", 11]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 2.4ms)
+
+
+  
+  [1m[36mCACHE Blog Load (0.0ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1 LIMIT $2[0m  [["pinned", true], ["LIMIT", 11]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `order_by' for #<Blog::ActiveRecord_Relation:0x00007f82c32b9f10>
+Did you mean?  order):
+  
+app/controllers/home_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2020-09-02 12:24:25 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1 ORDER BY "blogs"."id" ASC[0m  [["pinned", true]]
+  ↳ app/views/home/index.html.erb:37
+  Rendered home/index.html.erb within layouts/application (52.7ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 120ms (Views: 112.6ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/" for ::1 at 2020-09-02 12:24:55 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1 ORDER BY "blogs"."id" ASC[0m  [["pinned", true]]
+  ↳ app/views/home/index.html.erb:37
+  Rendered home/index.html.erb within layouts/application (52.9ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 117ms (Views: 109.4ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for ::1 at 2020-09-02 12:25:22 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1 ORDER BY "blogs"."id" ASC[0m  [["pinned", true]]
+  ↳ app/views/home/index.html.erb:37
+  Rendered home/index.html.erb within layouts/application (49.8ms)
+Completed 500 Internal Server Error in 68ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `strip_tags' for #<String:0x00007f82ccf79eb8>
+Did you mean?  strip!):
+    38:                       <div class="card-box mx-4" style="width: 35%;" onclick="window.location.href ='/view-blog/<%= blog.id %>'">
+    39:                           <div class="card-title">
+    40:                               <h2><%= blog.title %></h2>
+    41:                               <p style="height: 10vh; overflow: scroll;"><%= blog.text.strip_tags %></p>
+    42:                           </div>
+    43:                           <div class="card-link">
+    44:                               <a href="/view-blog/<%= blog.id %>" class="c-link" style="color: var(--color3); font-weight: bold;">Read More
+  
+app/views/home/index.html.erb:41:in `block in _app_views_home_index_html_erb___1621507795504307018_70099907142820'
+app/views/home/index.html.erb:37:in `_app_views_home_index_html_erb___1621507795504307018_70099907142820'
+Started GET "/" for ::1 at 2020-09-02 12:25:52 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1 ORDER BY "blogs"."id" ASC[0m  [["pinned", true]]
+  ↳ app/views/home/index.html.erb:37
+  Rendered home/index.html.erb within layouts/application (560.4ms)
+Completed 500 Internal Server Error in 578ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `html_string' for #<#<Class:0x00007f82c3380048>:0x00007f82ccfd1aa0>):
+    38:                       <div class="card-box mx-4" style="width: 35%;" onclick="window.location.href ='/view-blog/<%= blog.id %>'">
+    39:                           <div class="card-title">
+    40:                               <h2><%= blog.title %></h2>
+    41:                               <p style="height: 10vh; overflow: scroll;"><%= blog.text.sanitize(html_string, tags:[]) %></p>
+    42:                           </div>
+    43:                           <div class="card-link">
+    44:                               <a href="/view-blog/<%= blog.id %>" class="c-link" style="color: var(--color3); font-weight: bold;">Read More
+  
+app/views/home/index.html.erb:41:in `block in _app_views_home_index_html_erb___1621507795504307018_70099880809640'
+app/views/home/index.html.erb:37:in `_app_views_home_index_html_erb___1621507795504307018_70099880809640'
+Started GET "/" for ::1 at 2020-09-02 12:26:10 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1 ORDER BY "blogs"."id" ASC[0m  [["pinned", true]]
+  ↳ app/views/home/index.html.erb:37
+  Rendered home/index.html.erb within layouts/application (57.2ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 115ms (Views: 111.3ms | ActiveRecord: 0.3ms)
+
+
