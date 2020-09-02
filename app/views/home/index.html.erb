@@ -35,7 +35,7 @@
                 
                 
                 <% @blogs.each do |blog| %>
-                      <div class="card-box mx-4" style="width: 35%;" onclick="router.push('/view-blog/<%= blog.id %>')">
+                      <div class="card-box mx-4" style="width: 35%;" onclick="window.location.href ='/view-blog/<%= blog.id %>'">
                           <div class="card-title">
                               <h2><%= blog.title %></h2>
                               <p style="height: 10vh; overflow: scroll;"><%= blog.text %></p>
