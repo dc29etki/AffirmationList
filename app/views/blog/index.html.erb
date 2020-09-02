@@ -7,9 +7,21 @@
     <div class="row">
       
       
-      
+      <% @pinned.each do |blog| %>
+            <div class="card-box m-5" style="width: 35%;" onclick="window.location.href ='/view-blog/<%= blog.id %>'">
+                <div class="card-title">
+                    <h2><%= blog.title %></h2>
+                    <p style="height: 10vh; overflow: scroll;"><%= blog.text %></p>
+                </div>
+                <div class="card-link">
+                    <a href="/view-blog/<%= blog.id %>" class="c-link">Learn More
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+      <% end %>
       <% @blogs.each do |blog| %>
-            <div class="card-box m-5" style="width: 35%;">
+            <div class="card-box m-5" style="width: 35%;" onclick="window.location.href ='/view-blog/<%= blog.id %>'">
                 <div class="card-title">
                     <h2><%= blog.title %></h2>
                     <p style="height: 10vh; overflow: scroll;"><%= blog.text %></p>

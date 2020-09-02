@@ -6,7 +6,9 @@
   <div class="blogs w-75 mx-auto m-5">
     <div class="row">
       
-     <p class="m-5"><%= @blog.text %></p>
+     <div class="p1 m-5">
+       <%= @blog.text.html_safe %>
+     </div>
 
     </div>
   </div>
@@ -16,7 +18,7 @@
 
 
 <style>
-  p {
+  .p1 {
     font-size: 18pt;
     padding: 50px;
     background: #eee;
