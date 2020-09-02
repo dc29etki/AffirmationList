@@ -52,8 +52,6 @@
       height: 95px;
   }
   .login-links {
-    border: 1px solid white;
-    padding: 10px;
   }
   .login-links a:hover {
     color: lightblue;
@@ -171,12 +169,12 @@
       margin-top: 20px;
       margin-bottom: 20px;
     }
-    nav>a, nav>p{
+    nav>a, nav>p {
     	position: relative;
     	display: inline-block;
     	font-size: 24px;
     	line-height: 40px;
-    	padding: 0 2em;
+    	padding: 0 10px;
     	-webkit-transition: all .3s ease;
       
     }
@@ -237,7 +235,21 @@
     .learn-more:active{
     	box-shadow: inset 0 2px 0 rgba(0,0,0,.8);
     }
-
+    nav a {
+      position: relative;
+    	display: inline-block;
+      font-size: 20px;
+    	font-size: 24px;
+    	line-height: 40px;
+    	padding: 0 20px;
+      -webkit-transition: all .3s ease;
+    }
+    nav .login-links a {
+      border: 1px solid white;
+    }
+    nav .login-links a:hover {
+      background: var(--color2);
+    }
   }
   
 </style>
