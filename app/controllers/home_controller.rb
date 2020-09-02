@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def index
-    @blogs = Blog.all
+    @blogs = Blog.where(pinned: true)
   end
 end

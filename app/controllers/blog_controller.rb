@@ -1,6 +1,6 @@
 class BlogController < ApplicationController
   def index
-    @blogs = Blog.all.order("id ASC");
+    @blogs = Blog.order("id ASC");
   end
   def viewblog
     @blog = Blog.find(params[:id])

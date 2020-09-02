@@ -6,12 +6,12 @@
   <div class="w-100">
     <div class="text-center">
       <div class="s1">
-        <h2 class="px-3 mx-5" style="color: white; font-size: 2.5rem;">Welcome to the largest list of personally written affirmations on the web.</h2>
+        <h2 class="px-3 mx-5" style="color: black; font-size: 2.5rem;">Welcome to the Largest List of Personally Written Affirmations on the Web</h2>
         <div class="buttons">
-          <a href="/affirmations" class="btn color2 bigbutton btn-primary px-3 mt-5 mx-4">Go to Affirmation List</a>
+          <a href="/affirmations" class="btn color2 btn-primary mt-5" style="font-size: 1.5rem; font-weight: bold; padding: 10px; width: 20vw;">Go to Affirmation List</a>
           <br>
-          <a href="/view-blog/1" class="btn color2 p-3 btn-primary px-3 mt-5 mx-4">What are affirmations</a>
-          <a href="/view-blog/2" class="btn color2 p-3 btn-primary px-3 mt-5 mx-4">How to use affirmations</a>
+          <a href="/view-blog/1" class="btn color2 p-3 btn-primary px-3 mt-5 mx-4" style="font-size: 20px;">What are affirmations</a>
+          <a href="/view-blog/2" class="btn color2 p-3 btn-primary px-3 mt-5 mx-4" style="font-size: 20px;">How to use affirmations</a>
         </div>
       </div>
     </div>
@@ -20,9 +20,9 @@
           <% if user_signed_in? %>
             <h3 class="">Welcome Back, <strong><%= current_user.email %></strong></h3>
           <% else %>
-            <h3 class="" style="color:var(--color4); font-weight:bold;">Login or Sign Up Now!<br></h3>
-            <a href="/users/sign_up" class="btn color2 btn-primary mt-2">Login</a>
-            <a href="/users/sign_in" class="btn color2 btn-primary mt-2">Sign Up</a>
+            <h3 class="" style="color:var(--color4); font-weight:bold;">Sign up now to access over 1200 affirmations!<br></h3>
+            
+            <a href="/users/sign_in" class="btn color2 btn-primary mt-2" style="font-size: 24px; font-weight: bold; padding: 10px; width: 20vw;">Sign Up</a><br>
           <% end %>
         
       </div>
@@ -96,7 +96,6 @@
       margin: 0;
       padding-top: 5%;
       color: var(--color4);
-      text-transform: uppercase;
       font-size: 24px;
       line-height: 1;
       margin-bottom: 15px;
