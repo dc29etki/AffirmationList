@@ -9,7 +9,7 @@
     
     <section id="tabs">
     	<div class="container">
-    		<h1 class="text-center mb-3">Categories</h1>
+    		<h1 class="text-center mb-5" style="color:white;">Categories</h1>
     		<div class="row">
     			<div class="column1">
     				
@@ -27,11 +27,71 @@
             <div class="column2">
               <div class="tab-content mb-0 px-3 px-sm-0" id="nav-tabContent">
         					<div class="tab-pane fade show active" id="nav-<%= @categories.first.category_safe %>" role="tabpanel" aria-labelledby="nav-<%= @categories.first.category_safe %>-tab">
-        					  <%= @categories.first.category %>
+        					  <div style="font-size: 30px !important;"><%= @categories.first.category %></div>
+                    
+                    <div class="mx-auto">
+                      
+                      <div class="box">
+                        
+                        <a href="/view-affirmations/<%= @categories.first.category %>/<%= @categories.first.sub1 %>" class="item">
+                          <%= @categories.first.sub1 %>
+                        </a>
+                        <a href="/view-affirmations/<%= @categories.first.category %>/<%= @categories.first.sub2 %>" class="item">
+                          <%= @categories.first.sub2 %>
+                        </a>
+                        <a href="/view-affirmations/<%= @categories.first.category %>/<%= @categories.first.sub3 %>" class="item">
+                          <%= @categories.first.sub3 %>
+                        </a>
+                        
+                        <% if @categories.first.sub4 %>
+                          <a href="/view-affirmations/<%= @categories.first.category %>/<%= @categories.first.sub4 %>" class="item">
+                            <%= @categories.first.sub4 %>
+                          </a>
+                        <% end %>
+                        
+                        <% if @categories.first.sub5 %>
+                          <a href="/view-affirmations/<%= @categories.first.category %>/<%= @categories.first.sub5 %>" class="item">
+                            <%= @categories.first.sub5 %>
+                          </a>
+                        <% end %>
+                      </div>
+                    </div>
+                    
                   </div>
+                 
                   <% @categories.drop(1).each do |c| %>
         				  	<div class="tab-pane fade" id="nav-<%= c.category_safe %>" role="tabpanel" aria-labelledby="nav-<%= c.category_safe %>-tab">
-        				  	  <%= c.category %>
+        				  	  <div style="font-size: 30px !important;"><%= c.category %></div>
+                      
+                      <div class="mx-auto">
+                        
+                        <div class="d-flex box">
+                          <a href="/view-affirmations/<%= c.category %>/<%= c.sub1 %>" class="item">
+                            <%= c.sub1 %>
+                          </a>
+                          <a href="/view-affirmations/<%= c.category %>/<%= c.sub2 %>" class="item">
+                            <%= c.sub2 %>
+                          </a>
+                          <a href="/view-affirmations/<%= c.category %>/<%= c.sub3 %>" class="item">
+                            <%= c.sub3 %>
+                          </a>
+                          
+                          <% if c.sub4 %>
+                            <a href="/view-affirmations/<%= c.category %>/<%= c.sub4 %>" class="item">
+                              <%= c.sub4 %>
+                            </a>
+                          <% end %>
+                        
+                          <% if c.sub5 %>
+                            <a href="/view-affirmations/<%= c.category %>/<%= c.sub5 %>" class="item">
+                              <%= c.sub5 %>
+                            </a>
+                          <% end %>
+                          
+                        </div>
+                        
+                      </div>
+                      
                     </div>
                   <% end %>
       				</div>
@@ -68,15 +128,16 @@
   }
   
   .tab-pane {
-    height: 50vh;
+    height: auto;
     margin-top: 0;
     padding-top: 25px;
     text-align: center;
     background: var(--color3);
     color: white;
     font-size: 24px;
-    
+    min-height: 60vh;
   }
+  
   
   .row {
     display: flex;
@@ -135,4 +196,28 @@
   #tabs a:hover {
     background-color:rgba(159, 39, 79, 0.5);"
   }
+  
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5vw;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .box .item {
+    width: auto;
+    height: auto;
+    padding: 20px 30px;
+    border: 1px solid white;
+    margin: 10px;
+  }
+  
+  
+  a.item {
+    color: white;
+  }
+  
 </style>

@@ -1,0 +1,2 @@
+class SafeAndSecure < ApplicationRecord
+end

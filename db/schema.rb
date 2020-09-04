@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_04_144107) do
+ActiveRecord::Schema.define(version: 2020_09_04_173034) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,6 +34,91 @@ ActiveRecord::Schema.define(version: 2020_09_04_144107) do
   create_table "categories", force: :cascade do |t|
     t.string "category"
     t.string "category_safe"
+    t.string "sub1"
+    t.string "sub2"
+    t.string "sub3"
+    t.string "sub4"
+    t.string "sub5"
+  end
+
+  create_table "lifestyles", force: :cascade do |t|
+    t.string "affirmation"
+    t.string "sub1"
+    t.string "sub2"
+    t.string "sub3"
+    t.string "sub4"
+    t.string "sub5"
+    t.string "tags"
+  end
+
+  create_table "love_and_relationships", force: :cascade do |t|
+    t.string "affirmation"
+    t.string "sub1"
+    t.string "sub2"
+    t.string "sub3"
+    t.string "sub4"
+    t.string "sub5"
+    t.string "tags"
+  end
+
+  create_table "mental_healths", force: :cascade do |t|
+    t.string "affirmation"
+    t.string "sub1"
+    t.string "sub2"
+    t.string "sub3"
+    t.string "sub4"
+    t.string "sub5"
+    t.string "tags"
+  end
+
+  create_table "physical_healths", force: :cascade do |t|
+    t.string "affirmation"
+    t.string "sub1"
+    t.string "sub2"
+    t.string "sub3"
+    t.string "sub4"
+    t.string "sub5"
+    t.string "tags"
+  end
+
+  create_table "safe_and_secures", force: :cascade do |t|
+    t.string "affirmation"
+    t.string "sub1"
+    t.string "sub2"
+    t.string "sub3"
+    t.string "sub4"
+    t.string "sub5"
+    t.string "tags"
+  end
+
+  create_table "self_fulfillments", force: :cascade do |t|
+    t.string "affirmation"
+    t.string "sub1"
+    t.string "sub2"
+    t.string "sub3"
+    t.string "sub4"
+    t.string "sub5"
+    t.string "tags"
+  end
+
+  create_table "spiritualities", force: :cascade do |t|
+    t.string "affirmation"
+    t.string "sub1"
+    t.string "sub2"
+    t.string "sub3"
+    t.string "sub4"
+    t.string "sub5"
+    t.string "tags"
+  end
+
+  create_table "successes", force: :cascade do |t|
+    t.string "affirmation"
+    t.string "sub1"
+    t.string "sub2"
+    t.string "sub3"
+    t.string "sub4"
+    t.string "sub5"
+    t.string "tags"
   end
 
   create_table "users", force: :cascade do |t|

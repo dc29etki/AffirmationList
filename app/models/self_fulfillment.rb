@@ -1,0 +1,2 @@
+class SelfFulfillment < ApplicationRecord
+end

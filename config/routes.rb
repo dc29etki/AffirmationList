@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  
   devise_for :users, :controllers => { registrations: 'registrations' }
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   get 'affirmations' => 'affirmations#index'
@@ -8,6 +9,7 @@ Rails.application.routes.draw do
   get 'welcome/page3' => 'welcome#page3'
   get 'welcome/page4' => 'welcome#page4'
   get 'welcome/result' => 'welcome#result'
+  get 'view-affirmations/:category/:sub' => 'view_affirmations#index'
   
   get 'blogs' => 'blog#index'
   get 'view-blog/:id' => 'blog#viewblog'

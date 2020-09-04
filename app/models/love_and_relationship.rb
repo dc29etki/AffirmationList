@@ -1,0 +1,2 @@
+class LoveAndRelationship < ApplicationRecord
+end

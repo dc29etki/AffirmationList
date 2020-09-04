@@ -1,0 +1,2 @@
+class PhysicalHealth < ApplicationRecord
+end
