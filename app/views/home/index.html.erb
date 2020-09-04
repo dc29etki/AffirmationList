@@ -18,7 +18,7 @@
     <div class="text-center" style="background: var(--mid-bg);">
       <div class="mx-auto p-5 w-100">
           <% if user_signed_in? %>
-            <h3 class="">Welcome Back, <strong><%= current_user.email %></strong></h3>
+            <h3 class="">Welcome Back, <strong><%= current_user.first_name %></strong></h3>
           <% else %>
             <h3 class="" style="color:var(--color4); font-weight:bold;">Sign up now to access over 1200 affirmations!<br></h3>
             
@@ -27,7 +27,7 @@
         
       </div>
     </div>
-    <div class="text-center mb-5 pb-5">
+    <div class="text-center mb-5 pb-3">
         <h3 class="mt-5" style="color:var(--color4); font-weight:bold;">Blog</h3>
            <div class="container mt-5">
               <div class="row pb-5">
@@ -38,7 +38,7 @@
                       <div class="card-box mx-4" style="width: 35%;" onclick="window.location.href ='/view-blog/<%= blog.id %>'">
                           <div class="card-title">
                               <h2><%= blog.title %></h2>
-                              <p style="height: 10vh; overflow: scroll;"><%= sanitize(blog.text, tags:[]) %></p>
+                              <p style="height: 10vh; overflow: hidden; text-overflow: ellipsis;"><%= sanitize(blog.text, tags:[]) %></p>
                           </div>
                           <div class="card-link">
                               <a href="/view-blog/<%= blog.id %>" class="c-link" style="color: var(--color3); font-weight: bold;">Read More
@@ -74,6 +74,7 @@
       justify-content: space-between;
       position: relative;
       cursor: pointer;
+      border: 3px solid var(--color1);
   }
 
   .card-box:hover {
@@ -83,8 +84,8 @@
   .card-box:after {
       display: block;
       background: #2196F3;
-      border-top: 2px solid var(--color4);
-      content: '';
+/*      border-top: 2px solid var(--color4);
+*/      content: '';
       width: 100%;
       position: absolute;
       left: 0;
@@ -129,11 +130,12 @@
   .color2{
     background: var(--color3) !important;
     border: var(--color3);
+    border: 3px solid var(--color1);
   }
   .bigbutton{
     padding: 2vh;
     font-weight: bold;
-   /* border: 2px solid var(--color1);*/
+   /* border: 3px solid var(--color1);*/
   }
   .row {
     display: flex;
