@@ -6,7 +6,7 @@
   <div class="w-100">
     <div class="text-center">
       <div class="s1">
-        <h2 class="px-3 mx-5" style="color: black; font-size: rem;">Welcome to the Largest List of Personally Written Affirmations on the Web</h2>
+        <h2 class="px-3 mx-5 pt-4" style="color: black; font-size: rem;">Welcome to the Largest List of Personally Written Affirmations on the Web</h2>
         <div class="buttons">
           <a href="/affirmations" class="btn color2 btn-primary mt-5" style="font-size: 24px; font-weight: bold; padding: 10px 20px 10px 20px; width: auto;">Go to Affirmation List</a>
           <br>
@@ -38,7 +38,7 @@
                       <div class="card-box mx-4" style="width: 35%;" onclick="window.location.href ='/view-blog/<%= blog.id %>'">
                           <div class="card-title">
                               <h2><%= blog.title %></h2>
-                              <p style="height: 10vh; overflow: hidden; text-overflow: ellipsis;"><%= sanitize(blog.text, tags:[]) %></p>
+                              <p style="height: 10vh; overflow: hidden; text-overflow: ellipsis;"><%= sanitize(blog.text, tags:[])[0, 120]+'...' %></p>
                           </div>
                           <div class="card-link">
                               <a href="/view-blog/<%= blog.id %>" class="c-link" style="color: var(--color3); font-weight: bold;">Read More

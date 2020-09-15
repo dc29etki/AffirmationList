@@ -8,7 +8,7 @@
   <div>
     
     <section id="tabs">
-    	<div class="container">
+    	<div class="c w-75 mx-auto">
     		<h1 class="text-center mb-5" style="color:white;">Categories</h1>
     		<div class="row">
     			<div class="column1">
@@ -33,24 +33,24 @@
                       
                       <div class="box">
                         
-                        <a href="/view-affirmations/<%= @categories.first.category %>/<%= @categories.first.sub1 %>" class="item">
+                        <a href="/view-affirmations/<%= @categories.first.category_safe %>/<%= @categories.first.sub1 %>" class="item">
                           <%= @categories.first.sub1 %>
                         </a>
-                        <a href="/view-affirmations/<%= @categories.first.category %>/<%= @categories.first.sub2 %>" class="item">
+                        <a href="/view-affirmations/<%= @categories.first.category_safe %>/<%= @categories.first.sub2 %>" class="item">
                           <%= @categories.first.sub2 %>
                         </a>
-                        <a href="/view-affirmations/<%= @categories.first.category %>/<%= @categories.first.sub3 %>" class="item">
+                        <a href="/view-affirmations/<%= @categories.first.category_safe %>/<%= @categories.first.sub3 %>" class="item">
                           <%= @categories.first.sub3 %>
                         </a>
                         
                         <% if @categories.first.sub4 %>
-                          <a href="/view-affirmations/<%= @categories.first.category %>/<%= @categories.first.sub4 %>" class="item">
+                          <a href="/view-affirmations/<%= @categories.first.category_safe %>/<%= @categories.first.sub4 %>" class="item">
                             <%= @categories.first.sub4 %>
                           </a>
                         <% end %>
                         
                         <% if @categories.first.sub5 %>
-                          <a href="/view-affirmations/<%= @categories.first.category %>/<%= @categories.first.sub5 %>" class="item">
+                          <a href="/view-affirmations/<%= @categories.first.category_safe %>/<%= @categories.first.sub5 %>" class="item">
                             <%= @categories.first.sub5 %>
                           </a>
                         <% end %>
@@ -66,24 +66,24 @@
                       <div class="mx-auto">
                         
                         <div class="d-flex box">
-                          <a href="/view-affirmations/<%= c.category %>/<%= c.sub1 %>" class="item">
+                          <a href="/view-affirmations/<%= c.category_safe %>/<%= c.sub1 %>" class="item">
                             <%= c.sub1 %>
                           </a>
-                          <a href="/view-affirmations/<%= c.category %>/<%= c.sub2 %>" class="item">
+                          <a href="/view-affirmations/<%= c.category_safe %>/<%= c.sub2 %>" class="item">
                             <%= c.sub2 %>
                           </a>
-                          <a href="/view-affirmations/<%= c.category %>/<%= c.sub3 %>" class="item">
+                          <a href="/view-affirmations/<%= c.category_safe %>/<%= c.sub3 %>" class="item">
                             <%= c.sub3 %>
                           </a>
                           
                           <% if c.sub4 %>
-                            <a href="/view-affirmations/<%= c.category %>/<%= c.sub4 %>" class="item">
+                            <a href="/view-affirmations/<%= c.category_safe %>/<%= c.sub4 %>" class="item">
                               <%= c.sub4 %>
                             </a>
                           <% end %>
                         
                           <% if c.sub5 %>
-                            <a href="/view-affirmations/<%= c.category %>/<%= c.sub5 %>" class="item">
+                            <a href="/view-affirmations/<%= c.category_safe %>/<%= c.sub5 %>" class="item">
                               <%= c.sub5 %>
                             </a>
                           <% end %>

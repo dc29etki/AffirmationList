@@ -17,6 +17,7 @@ gem  'meta-tags'
 gem 'rails_admin', '~> 2.0'
 gem 'devise'
 gem "sass_rails_patch", "~> 0.0.1"
+gem 'seed_dump'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
@@ -53,3 +54,5 @@ group :test do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# rake db:seed:dump MODELS="Category, Lifestyle, LoveAndRelationship, MentalHealth, PhysicalHealth, SafeAndSecure, SelfFulfillment, Spirituality, Success"
