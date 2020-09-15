@@ -16,11 +16,11 @@
       </div>
     </div>
     <div class="text-center" style="background: var(--mid-bg);">
-      <div class="mx-auto p-2 w-100">
+      <div class="mx-auto py-5 p-2 w-100">
           <% if user_signed_in? %>
-            <h3 class="pt-3">Welcome Back, <strong><%= current_user.first_name %></strong></h3>
+            <h3 class="">Welcome Back, <strong><%= current_user.first_name %></strong></h3>
             <div>
-              <a href="/favorites" class="btn color2 btn-primary m-3">My Favorite Affirmations</a>
+              <a href="/favorites" class="btn color2 btn-primary mt-3">My Favorite Affirmations</a>
             </div>
           <% else %>
             <h3 class="" style="color:var(--color4); font-weight:bold;">Sign up now to access over 1200 affirmations!<br></h3>
@@ -41,7 +41,7 @@
                       <div class="card-box mx-4" style="width: 35%;" onclick="window.location.href ='/view-blog/<%= blog.id %>'">
                           <div class="card-title">
                               <h2><%= blog.title %></h2>
-                              <p style="height: 10vh; overflow: hidden; text-overflow: ellipsis;"><%= sanitize(blog.text, tags:[])[0, 120]+'...' %></p>
+                              <p style="height: 10vh; overflow: hidden; text-overflow: ellipsis;"><%= sanitize(blog.text, tags:[])[0, 170]+'...' %></p>
                           </div>
                           <div class="card-link">
                               <a href="/view-blog/<%= blog.id %>" class="c-link" style="color: var(--color3); font-weight: bold;">Read More
