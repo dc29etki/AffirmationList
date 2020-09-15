@@ -45,9 +45,14 @@
 		</div>
 	</header>
 </div>
-<div class="spacer">
-    &nbsp;
-</div>
+
+    <% if current_user %>
+      <% if current_user.admin? %>
+        <div class="spacer">
+            &nbsp;
+        </div>
+      <% end %> 
+    <% end %>
 
 <style>
   .spacer
@@ -104,7 +109,7 @@
     	background: var(--color1) !important;
     }
     img {
-      height: 70px;
+      height: 70px !important;
       width: auto;
       margin-top: 5px;
       margin-bottom: 5px;

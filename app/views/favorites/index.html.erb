@@ -1,5 +1,9 @@
 <div id="content-area">
-  <h1 class="text-center m-5" style="color:white;">My Favorite Affirmations</h1>
+  <h1 class="text-center mt-5" style="color:white;">My Favorite Affirmations</h1>
+  
+  <div class="m-3 text-center">
+    <a href="/affirmations" class="btn mx-auto px-3 color2 btn-primary" style="font-size: 20px;">All Affirmations</a>
+  </div>
   
   <div class="affs mx-auto">
     <div class="aff font-weight-bold text-center row p-3 m-3">
@@ -35,6 +39,8 @@
     border: 2px solid var(--color3);
     background: white;
     color: black;
+    display: flex;
+    align-items: center;
   }
   .delete a {
     color: white !important;
@@ -42,5 +48,10 @@
     padding: 3px;
     font-weight: bold;
     border: 1px solid red;
+  }
+  .color2{
+    background: var(--color3) !important;
+    border: var(--color3);
+    padding: 10px;
   }
 </style>

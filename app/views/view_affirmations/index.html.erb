@@ -1,4 +1,8 @@
-<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
 <div id="content-area mb-5">
   <h1 class="text-center mt-3"></h1>
   
@@ -20,8 +24,12 @@
   <div class="affs mx-auto mx-5 mb-3">
     <div class="row">   
      <div class="p1 mx-5">
+       <div class="aff row p-3 m-3 font-weight-bold">
+         <div class="col-8">Affirmation</div>
+         <div class="col-4 text-right">Add to Favorites</div>
+        </div>
        <% @affirmations.each do |a| %>
-         <div class="aff row p-3 m-3">
+         <div class="aff row p-3 m-3" id="affirmation-<%= a.id %>">
            <div class="col-9"><%= a.affirmation %></div>
            <div class="col-3 text-right">
              <%= form_for Favorite.new do |f| %>
@@ -29,7 +37,9 @@
                <%= f.hidden_field :cat, value: @cat.category %>
                <%= f.hidden_field :sub, value: @sub %>
                <%= f.hidden_field :user_id, value: current_user.id %>
-               <%= f.submit "Save", :class => "submitbutton" %>
+               <%= button_tag( :class => "submitbutton") do %>
+                 <i class="icon-star icon-white"></i>
+               <% end %>
              <% end %>
            </div>
          </div>
@@ -54,12 +64,14 @@
   .submitbutton {
     background: var(--color3) !important;
     color:  white;
-    padding: 5px;
+    padding: 7.5px;
     border-radius: 10px;
-    font-size: 18px;
-    margin-top: auto;
-    margin-bottom: auto;
     height: 100%;
+    font-size: 24px;
+    
+  }
+  .submitbutton:hover {
+    background: #cd89a0 !important;
   }
   .p1 {
     font-size: 18pt;
@@ -86,6 +98,8 @@
   .aff {
     border: 3px solid var(--color3);
     color: black;
+    display: flex;
+    align-items: center;
   }
   .buttons {
     display: flex;
@@ -105,5 +119,8 @@
   .active {
     background: #cd89a0 !important;
     font-weight: bold !important;
+  }
+  form {
+    margin: 0 !important;
   }
 </style>
