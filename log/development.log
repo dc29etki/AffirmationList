@@ -30932,3 +30932,95 @@ Processing by ViewAffirmationsController#index as HTML
 Completed 200 OK in 205ms (Views: 193.4ms | ActiveRecord: 3.1ms)
 
 
+Started GET "/favorites" for ::1 at 2020-09-15 16:29:13 -0400
+Processing by FavoritesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendering favorites/index.html.erb within layouts/application
+  [1m[36mFavorite Load (2.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/favorites/index.html.erb:15
+  Rendered favorites/index.html.erb within layouts/application (8.8ms)
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 157ms (Views: 149.4ms | ActiveRecord: 2.8ms)
+
+
+Started DELETE "/favorites/8" for ::1 at 2020-09-15 16:29:17 -0400
+Processing by FavoritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VZv1xU0wxMkkPrdj1YiwhI4YiXoCVNdlN3JuNzBWzQQoyQOceGY9dEEmHoeWTsziVdbvZQJQFDLOV24vFuTLVA==", "id"=>"8"}
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT  "favorites".* FROM "favorites" WHERE "favorites"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/favorites_controller.rb:25
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/favorites_controller.rb:25
+  [1m[36mFavorite Destroy (1.8ms)[0m  [1m[31mDELETE FROM "favorites" WHERE "favorites"."id" = $1[0m  [["id", 8]]
+  ↳ app/controllers/favorites_controller.rb:25
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/favorites_controller.rb:25
+Redirected to http://localhost:3000/favorites
+Completed 302 Found in 7ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/favorites" for ::1 at 2020-09-15 16:29:17 -0400
+Processing by FavoritesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendering favorites/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/favorites/index.html.erb:15
+  Rendered favorites/index.html.erb within layouts/application (4.1ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 144ms (Views: 139.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/favorites" for ::1 at 2020-09-15 16:31:01 -0400
+Processing by FavoritesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendering favorites/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/favorites/index.html.erb:15
+  Rendered favorites/index.html.erb within layouts/application (3.9ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 139ms (Views: 132.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-09-15 16:35:27 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1 ORDER BY "blogs"."id" ASC[0m  [["pinned", true]]
+  ↳ app/views/home/index.html.erb:40
+  Rendered home/index.html.erb within layouts/application (106.6ms)
+Completed 500 Internal Server Error in 318ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( rails-ujs.js )` to `config/initializers/assets.rb` and restart your server):
+     6:     <%= csp_meta_tag %>
+     7:     
+     8:     <%= javascript_include_tag "application" %>
+     9:     <%= javascript_include_tag "rails-ujs" %>
+    10:     
+    11: 
+    12:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1440091227013025080_70237329621040'
+Started GET "/" for ::1 at 2020-09-15 16:35:39 -0400
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1 ORDER BY "blogs"."id" ASC[0m  [["pinned", true]]
+  ↳ app/views/home/index.html.erb:40
+  Rendered home/index.html.erb within layouts/application (678.8ms)
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 809ms (Views: 786.8ms | ActiveRecord: 12.3ms)
+
+
