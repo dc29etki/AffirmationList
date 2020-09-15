@@ -1,0 +1,46 @@
+<div id="content-area">
+  <h1 class="text-center m-5" style="color:white;">My Favorite Affirmations</h1>
+  
+  <div class="affs mx-auto">
+    <div class="aff font-weight-bold text-center row p-3 m-3">
+      <div class="col-5">Affirmation</div>
+      <div class="col-3">Category</div>
+      <div class="col-3">Sub-Category</div>
+      <div class="col-1">Delete</div>
+    </div>
+    <% @affirmations.each do |a| %>
+      <div class="aff text-center row p-3 m-3">
+        <div class="col-5"><%= a.affirmation %></div>
+        <div class="col-3"><%= a.cat %></div>
+        <div class="col-3"><%= a.sub %></div>
+        <div class="delete col-1">
+          <%= link_to 'X', favorite_path(id: a.id), method: :delete, data: { confirm: 'Are you sure?' } %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+  
+</div>
+
+<style>
+  .affs {
+    height: 75vh;
+    width: 85%;
+    overflow: scroll;
+    border: 5px solid var(--color3);
+    font-size: 24px;
+    padding: 0 20px;
+  }
+  .aff {
+    border: 2px solid var(--color3);
+    background: white;
+    color: black;
+  }
+  .delete a {
+    color: white !important;
+    background: red;
+    padding: 3px;
+    font-weight: bold;
+    border: 1px solid red;
+  }
+</style>

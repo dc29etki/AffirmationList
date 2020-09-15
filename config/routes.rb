@@ -10,11 +10,15 @@ Rails.application.routes.draw do
   get 'welcome/page4' => 'welcome#page4'
   get 'welcome/result' => 'welcome#result'
   get 'view-affirmations/:category/:sub' => 'view_affirmations#index'
+  get 'favorites' => 'favorites#index'
   
   get 'blogs' => 'blog#index'
   get 'view-blog/:id' => 'blog#viewblog'
   
   root to: "home#index"
+  
+  resources :view_affirmations
+  resources :favorites
   
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

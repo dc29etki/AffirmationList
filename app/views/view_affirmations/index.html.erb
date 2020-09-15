@@ -1,7 +1,8 @@
-<div id="content-area">
-  <h1 class="text-center mt-5"></h1>
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+<div id="content-area mb-5">
+  <h1 class="text-center mt-3"></h1>
   
-  <h1 class="text-center" style="color:white;"><%= @cat.category %></h1>
+  <h1 class="text-center p-3" style="color:white;"><%= @cat.category %></h1>
   <div class="m-3 text-center">
     <a href="/affirmations" class="btn mx-auto color2 btn-primary" style="font-size: 20px;">	&larr; Back to All Categories</a>
   </div>
@@ -16,15 +17,20 @@
       <a href="/view-affirmations/<%= @cat.category_safe %>/<%= @cat.sub5 %>" class="item <%= 'active' if @sub == @cat.sub5 %>"><%= @cat.sub5 %></a>
     <% end %>
   </div>
-  
-  <div class="affs mx-auto mx-5">
+  <div class="affs mx-auto mx-5 mb-3">
     <div class="row">   
      <div class="p1 mx-5">
        <% @affirmations.each do |a| %>
          <div class="aff row p-3 m-3">
-           <div class="col-10"><%= a.affirmation %></div>
-           <div class="col-2 text-right">
-             hi
+           <div class="col-9"><%= a.affirmation %></div>
+           <div class="col-3 text-right">
+             <%= form_for Favorite.new do |f| %>
+               <%= f.hidden_field :affirmation, value: a.affirmation %>
+               <%= f.hidden_field :cat, value: @cat.category %>
+               <%= f.hidden_field :sub, value: @sub %>
+               <%= f.hidden_field :user_id, value: current_user.id %>
+               <%= f.submit "Save", :class => "submitbutton" %>
+             <% end %>
            </div>
          </div>
        <% end %>
@@ -32,12 +38,29 @@
 
     </div>
   </div>
-  
+    
+  <div class="spacer m-3 p-3"> </div>
+    
 </div>
 
 
 
 <style>
+  html{
+      height: 100%;
+      margin: auto;
+      overflow: scroll !important;
+  }
+  .submitbutton {
+    background: var(--color3) !important;
+    color:  white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+  }
   .p1 {
     font-size: 18pt;
     padding: 50px;
@@ -46,7 +69,7 @@
   .color2{
     background: var(--color3) !important;
     border: var(--color3);
-    border: 3px solid var(--color1);
+    padding: 10px;
   }
   .bigbutton{
     padding: 2vh;

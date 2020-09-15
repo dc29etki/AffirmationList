@@ -1,5 +1,6 @@
 class ViewAffirmationsController < ApplicationController
   before_action :authenticate_user!
+  
   def index
     @category = params[:category]
     @sub = params[:sub]
