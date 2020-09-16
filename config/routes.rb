@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'welcome/result' => 'welcome#result'
   get 'view-affirmations/:category/:sub' => 'view_affirmations#index'
   get 'favorites' => 'favorites#index'
+  get 'about' => 'about#index'
   
   get 'blogs' => 'blog#index'
   get 'view-blog/:id' => 'blog#viewblog'
