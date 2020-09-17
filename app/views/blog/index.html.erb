@@ -11,7 +11,7 @@
             <div class="card-box m-5" style="width: 35%;" onclick="window.location.href ='/view-blog/<%= blog.id %>'">
                 <div class="card-title">
                     <h2><%= blog.title %></h2>
-                    <p style="height: 10vh; overflow: scroll;"><%= sanitize(blog.text, tags:[]) %></p>
+                    <p style="height: 10vh; text-overflow: ellipsis;"><%= sanitize(blog.text, tags:[])[0, 170]+'...' %></p>
                 </div>
                 <div class="card-link">
                     <a href="/view-blog/<%= blog.id %>" class="c-link">Learn More
@@ -24,7 +24,7 @@
             <div class="card-box m-5" style="width: 35%;" onclick="window.location.href ='/view-blog/<%= blog.id %>'">
                 <div class="card-title">
                     <h2><%= blog.title %></h2>
-                    <p style="height: 10vh; overflow: scroll;"><%= sanitize(blog.text, tags:[]) %></p>
+                    <p style="height: 10vh; text-overflow: ellipsis;"><%= sanitize(blog.text, tags:[])[0, 170]+'...' %></p>
                 </div>
                 <div class="card-link">
                     <a href="/view-blog/<%= blog.id %>" class="c-link">Learn More

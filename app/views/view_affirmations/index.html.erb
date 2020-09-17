@@ -30,7 +30,7 @@
         </div>
        <% @affirmations.each do |a| %>
          <div class="aff row p-3 m-3" id="affirmation-<%= a.id %>">
-           <div class="col-9"><%= a.affirmation %></div>
+           <div class="col-9" style="line-height: 100%;"><%= a.affirmation %></div>
            <div class="col-3 text-right">
              <%= form_for Favorite.new do |f| %>
                <%= f.hidden_field :affirmation, value: a.affirmation %>
