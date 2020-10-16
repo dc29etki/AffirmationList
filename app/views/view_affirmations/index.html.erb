@@ -11,9 +11,15 @@
     <a href="/affirmations" class="btn mx-auto color2 btn-primary" style="font-size: 20px;">	&larr; Back to All Categories</a>
   </div>
   <div class="buttons mx-auto">
-    <a href="/view-affirmations/<%= @cat.category_safe %>/<%= @cat.sub1 %>" class="item <%= 'active' if @sub == @cat.sub1 %>"><%= @cat.sub1 %></a>
-    <a href="/view-affirmations/<%= @cat.category_safe %>/<%= @cat.sub2 %>" class="item <%= 'active' if @sub == @cat.sub2 %>"><%= @cat.sub2 %></a>
-    <a href="/view-affirmations/<%= @cat.category_safe %>/<%= @cat.sub3 %>" class="item <%= 'active' if @sub == @cat.sub3 %>"><%= @cat.sub3 %></a>
+    <% if @cat.sub1 %>
+      <a href="/view-affirmations/<%= @cat.category_safe %>/<%= @cat.sub1 %>" class="item <%= 'active' if @sub == @cat.sub1 %>"><%= @cat.sub1 %></a>
+    <% end %>
+    <% if @cat.sub2 %>
+      <a href="/view-affirmations/<%= @cat.category_safe %>/<%= @cat.sub2 %>" class="item <%= 'active' if @sub == @cat.sub2 %>"><%= @cat.sub2 %></a>
+    <% end %>
+    <% if @cat.sub3 %>
+      a href="/view-affirmations/<%= @cat.category_safe %>/<%= @cat.sub3 %>" class="item <%= 'active' if @sub == @cat.sub3 %>"><%= @cat.sub3 %></a>
+    <% end %>
     <% if @cat.sub4 %>
       <a href="/view-affirmations/<%= @cat.category_safe %>/<%= @cat.sub4 %>" class="item <%= 'active' if @sub == @cat.sub4 %>"><%= @cat.sub4 %></a>
     <% end %>

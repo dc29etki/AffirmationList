@@ -10,15 +10,20 @@
     <section id="tabs">
     	<div class="c w-75 mx-auto">
     		<h1 class="text-center mb-5" style="color:white;">Categories</h1>
-    		<div class="row">
+    		<div class="row frame1">
     			<div class="column1">
     				
             <nav class="nav1">
     					<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
     						<a class="nav-item nav-link active mt-0" id="nav-<%= @categories.first.category_safe %>-tab" data-toggle="tab" href="#nav-<%= @categories.first.category_safe %>" role="tab" aria-controls="nav-<%= @categories.first.category_safe %>" aria-selected="true"><%= @categories.first.category %></a>
                 <% @categories.drop(1).each do |c| %>
-      						<a class="nav-item nav-link" id="nav-<%= c.category_safe %>-tab" data-toggle="tab" href="#nav-<%= c.category_safe %>" role="tab" aria-controls="nav-<%= c.category_safe %>" aria-selected="true"><%= c.category %></a>
+                  <% if c.category_safe == 'coronavirus'%>
+        						<a class="nav-item nav-link" id="nav-<%= c.category_safe %>-tab" href="/view-affirmations/coronavirus/coronavirus"><%= c.category %></a>
+                  <% else %>
+      						  <a class="nav-item nav-link" id="nav-<%= c.category_safe %>-tab" data-toggle="tab" href="#nav-<%= c.category_safe %>" role="tab" aria-controls="nav-<%= c.category_safe %>" aria-selected="true"><%= c.category %></a>
+                  <% end %>
                 <% end %>
+                
     					</div>
     				</nav>
   					
@@ -32,7 +37,6 @@
                     <div class="mx-auto">
                       
                       <div class="box">
-                        
                         <a href="/view-affirmations/<%= @categories.first.category_safe %>/<%= @categories.first.sub1 %>" class="item">
                           <%= @categories.first.sub1 %>
                         </a>
@@ -66,6 +70,7 @@
                       <div class="mx-auto">
                         
                         <div class="d-flex box">
+
                           <a href="/view-affirmations/<%= c.category_safe %>/<%= c.sub1 %>" class="item">
                             <%= c.sub1 %>
                           </a>
@@ -127,6 +132,26 @@
       color: var(--color4);
   }
   
+ 
+  
+  
+  .frame1 {
+    display: flex;
+    height: auto;
+    align-items: center;
+  }
+  
+ 
+
+  .column1 {
+    flex: 30%;
+    height: 65vh !important;
+  }
+  .column2 {
+    flex: 70%;
+    height: 100% !important;
+  }
+  
   .tab-pane {
     height: auto;
     margin-top: 0;
@@ -135,19 +160,7 @@
     background: var(--color3);
     color: white;
     font-size: 24px;
-    min-height: 60vh;
-  }
-  
-  
-  .row {
-    display: flex;
-  }
-
-  .column1 {
-    flex: 30%;
-  }
-  .column2 {
-    flex: 70%;
+    height: 65vh !important;
   }
   
   #nav-tab {
@@ -163,8 +176,11 @@
   }
   
   .nav {
+    display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     margin-top: 0;
+    min-height: 65vh;
   }
   
   .nav-tabs {
