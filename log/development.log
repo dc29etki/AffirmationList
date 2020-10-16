@@ -41941,3 +41941,104 @@ DEPRECATION WARNING: Dangerous query method (method whose arguments are used as 
   ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
   [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT  "successes".* FROM "successes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 113], ["OFFSET", 0]]
   ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+Started GET "/" for ::1 at 2020-10-16 14:10:58 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mBlog Load (0.6ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1 ORDER BY "blogs"."id" ASC[0m  [["pinned", true]]
+  ↳ app/views/home/index.html.erb:40
+  Rendered home/index.html.erb within layouts/application (107.1ms)
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 223ms (Views: 208.2ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-16 14:24:32 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1 ORDER BY "blogs"."id" ASC[0m  [["pinned", true]]
+  ↳ app/views/home/index.html.erb:40
+  Rendered home/index.html.erb within layouts/application (109.5ms)
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 240ms (Views: 235.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-16 14:26:47 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (4.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (3.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 161ms (Views: 155.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/view-affirmations/self_fulfillment/Happiness" for ::1 at 2020-10-16 14:26:49 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"self_fulfillment", "sub"=>"Happiness"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:20
+  [1m[36mSuccess Load (0.8ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1='Happiness' OR sub2='Happiness' OR sub3='Happiness' OR sub4='Happiness' OR sub5='Happiness')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mLoveAndRelationship Load (1.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1='Happiness' OR sub2='Happiness' OR sub3='Happiness' OR sub4='Happiness' OR sub5='Happiness')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mSelfFulfillment Load (1.2ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1='Happiness' OR sub2='Happiness' OR sub3='Happiness' OR sub4='Happiness' OR sub5='Happiness')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mLifestyle Load (0.5ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1='Happiness' OR sub2='Happiness' OR sub3='Happiness' OR sub4='Happiness' OR sub5='Happiness')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mPhysicalHealth Load (0.6ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1='Happiness' OR sub2='Happiness' OR sub3='Happiness' OR sub4='Happiness' OR sub5='Happiness')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mMentalHealth Load (0.4ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1='Happiness' OR sub2='Happiness' OR sub3='Happiness' OR sub4='Happiness' OR sub5='Happiness')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mSpirituality Load (0.5ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1='Happiness' OR sub2='Happiness' OR sub3='Happiness' OR sub4='Happiness' OR sub5='Happiness')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mSafeAndSecure Load (0.5ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1='Happiness' OR sub2='Happiness' OR sub3='Happiness' OR sub4='Happiness' OR sub5='Happiness')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  Rendering view_affirmations/index.html.erb within layouts/application
+  Rendered view_affirmations/index.html.erb within layouts/application (37.6ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 197ms (Views: 150.2ms | ActiveRecord: 14.5ms)
+
+
+Started GET "/view-affirmations/self_fulfillment/Happiness" for ::1 at 2020-10-16 14:27:21 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"self_fulfillment", "sub"=>"Happiness"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:20
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1='Happiness' OR sub2='Happiness' OR sub3='Happiness' OR sub4='Happiness' OR sub5='Happiness')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1='Happiness' OR sub2='Happiness' OR sub3='Happiness' OR sub4='Happiness' OR sub5='Happiness')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mSelfFulfillment Load (0.5ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1='Happiness' OR sub2='Happiness' OR sub3='Happiness' OR sub4='Happiness' OR sub5='Happiness')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mLifestyle Load (0.6ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1='Happiness' OR sub2='Happiness' OR sub3='Happiness' OR sub4='Happiness' OR sub5='Happiness')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1='Happiness' OR sub2='Happiness' OR sub3='Happiness' OR sub4='Happiness' OR sub5='Happiness')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1='Happiness' OR sub2='Happiness' OR sub3='Happiness' OR sub4='Happiness' OR sub5='Happiness')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1='Happiness' OR sub2='Happiness' OR sub3='Happiness' OR sub4='Happiness' OR sub5='Happiness')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1='Happiness' OR sub2='Happiness' OR sub3='Happiness' OR sub4='Happiness' OR sub5='Happiness')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  Rendering view_affirmations/index.html.erb within layouts/application
+  Rendered view_affirmations/index.html.erb within layouts/application (44.7ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 177ms (Views: 162.1ms | ActiveRecord: 3.6ms)
+
+
