@@ -41806,3 +41806,138 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 152ms (Views: 148.4ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/view-affirmations/coronavirus/coronavirus" for ::1 at 2020-10-16 14:00:08 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"coronavirus", "sub"=>"coronavirus"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:10
+  [1m[36mSuccess Load (4.0ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mLoveAndRelationship Load (0.8ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mSelfFulfillment Load (0.6ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mLifestyle Load (0.5ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  Rendering view_affirmations/index.html.erb within layouts/application
+  Rendered view_affirmations/index.html.erb within layouts/application (29.5ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 299ms (Views: 194.3ms | ActiveRecord: 33.8ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-16 14:00:11 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (3.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 138ms (Views: 133.1ms | ActiveRecord: 0.7ms)
+
+
+  [1m[36mCategory Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "categories" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "\"categories\".\"id\" ASC". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from load at /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mCategory Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "categories" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mLifestyle Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "lifestyles" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mLoveAndRelationship Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "love_and_relationships" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mMentalHealth Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "mental_healths" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mPhysicalHealth Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "physical_healths" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mSafeAndSecure Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "safe_and_secures" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mSelfFulfillment Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "self_fulfillments" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mSpirituality Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "spiritualities" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mSuccess Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "successes" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "\"categories\".\"id\" ASC". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from load at /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "lifestyles"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "\"lifestyles\".\"id\" ASC". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from load at /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lifestyles"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mLifestyle Load (2.2ms)[0m  [1m[34mSELECT  "lifestyles".* FROM "lifestyles" LIMIT $1 OFFSET $2[0m  [["LIMIT", 134], ["OFFSET", 0]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "love_and_relationships"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "\"love_and_relationships\".\"id\" ASC". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from load at /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "love_and_relationships"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT  "love_and_relationships".* FROM "love_and_relationships" LIMIT $1 OFFSET $2[0m  [["LIMIT", 190], ["OFFSET", 0]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "mental_healths"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "\"mental_healths\".\"id\" ASC". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from load at /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "mental_healths"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT  "mental_healths".* FROM "mental_healths" LIMIT $1 OFFSET $2[0m  [["LIMIT", 108], ["OFFSET", 0]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "physical_healths"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "\"physical_healths\".\"id\" ASC". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from load at /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "physical_healths"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT  "physical_healths".* FROM "physical_healths" LIMIT $1 OFFSET $2[0m  [["LIMIT", 140], ["OFFSET", 0]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "safe_and_secures"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "\"safe_and_secures\".\"id\" ASC". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from load at /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "safe_and_secures"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT  "safe_and_secures".* FROM "safe_and_secures" LIMIT $1 OFFSET $2[0m  [["LIMIT", 161], ["OFFSET", 0]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "self_fulfillments"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "\"self_fulfillments\".\"id\" ASC". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from load at /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "self_fulfillments"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT  "self_fulfillments".* FROM "self_fulfillments" LIMIT $1 OFFSET $2[0m  [["LIMIT", 245], ["OFFSET", 0]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "spiritualities"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "\"spiritualities\".\"id\" ASC". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from load at /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "spiritualities"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT  "spiritualities".* FROM "spiritualities" LIMIT $1 OFFSET $2[0m  [["LIMIT", 165], ["OFFSET", 0]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "successes"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "\"successes\".\"id\" ASC". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from load at /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "successes"[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT  "successes".* FROM "successes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 113], ["OFFSET", 0]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
