@@ -17,7 +17,7 @@
         <div class="col-5 text-left"><%= a.affirmation %></div>
         <div class="col-3"><%= a.cat %></div>
         <div class="col-3"><%= a.sub %></div>
-        <div class="delete col-1">
+        <div class="delete col-1 text-center">
           <%= link_to 'X', favorite_path(id: a.id), method: :delete, data: { confirm: 'Are you sure?' } %>
         </div>
       </div>
@@ -44,10 +44,11 @@
   }
   .delete a {
     color: white !important;
-    background: red;
+    background: var(--color3);
     padding: 3px;
     font-weight: bold;
-    border: 1px solid red;
+    border: 1px solid var(--color3);
+    border-radius: 20%;
   }
   .color2{
     background: var(--color3) !important;

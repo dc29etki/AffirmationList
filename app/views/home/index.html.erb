@@ -41,7 +41,7 @@
                       <div class="card-box mx-4" style="width: 35%;" onclick="window.location.href ='/view-blog/<%= blog.id %>'">
                           <div class="card-title">
                               <h2><%= blog.title %></h2>
-                              <p style="height: 10vh; overflow: hidden; text-overflow: ellipsis;"><%= sanitize(blog.text, tags:[])[0, 170]+'...' %></p>
+                              <p style="overflow: hidden; text-overflow: ellipsis;"><%= sanitize(blog.text, tags:[])[0, 170]+'...' %></p>
                           </div>
                           <div class="card-link">
                               <a href="/view-blog/<%= blog.id %>" class="c-link" style="color: var(--color3); font-weight: bold;">Read More
