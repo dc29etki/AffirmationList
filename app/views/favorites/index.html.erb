@@ -10,14 +10,14 @@
       <div class="col-5">Affirmation</div>
       <div class="col-3">Category</div>
       <div class="col-3">Sub-Category</div>
-      <div class="col-1">Delete</div>
+      <div class="col-1 text-left">Delete</div>
     </div>
     <% @affirmations.each do |a| %>
       <div class="aff text-center row px-5 py-3 m-3">
         <div class="col-5 text-left"><%= a.affirmation %></div>
         <div class="col-3"><%= a.cat %></div>
         <div class="col-3"><%= a.sub %></div>
-        <div class="delete col-1 text-center">
+        <div class="delete col-1 text-right">
           <%= link_to 'X', favorite_path(id: a.id), method: :delete, data: { confirm: 'Are you sure?' } %>
         </div>
       </div>
