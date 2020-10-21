@@ -7,7 +7,7 @@
 <div id="content-area">
   <div>
     
-    <section id="tabs">
+    <section id="tabs" style="margin-bottom: 50px;">
     	<div class="c w-75 mx-auto">
     		<h1 class="text-center mb-5" style="color:white;">Categories</h1>
     		<div class="row frame1">
@@ -19,6 +19,8 @@
                 <% @categories.drop(1).each do |c| %>
                   <% if c.category_safe == 'coronavirus'%>
         						<a class="nav-item nav-link" id="nav-<%= c.category_safe %>-tab" href="/view-affirmations/coronavirus/coronavirus"><%= c.category %></a>
+                  <% elsif c.category_safe == 'politics'%>
+        						<a class="nav-item nav-link" id="nav-<%= c.category_safe %>-tab" href="/view-affirmations/politics/politics"><%= c.category %></a>
                   <% else %>
       						  <a class="nav-item nav-link" id="nav-<%= c.category_safe %>-tab" data-toggle="tab" href="#nav-<%= c.category_safe %>" role="tab" aria-controls="nav-<%= c.category_safe %>" aria-selected="true"><%= c.category %></a>
                   <% end %>

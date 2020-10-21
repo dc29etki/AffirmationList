@@ -9,6 +9,9 @@ class ViewAffirmationsController < ApplicationController
     if @category == 'coronavirus'
       @cat = Category.find(10)
       @affirmations = Success.where('tags like ?', @sub) + LoveAndRelationship.where('tags like ?', @sub) + SelfFulfillment.where('tags like ?', @sub) + Lifestyle.where('tags like ?', @sub) + PhysicalHealth.where('tags like ?', @sub) + MentalHealth.where('tags like ?', @sub) + Spirituality.where('tags like ?', @sub) + SafeAndSecure.where('tags like ?', @sub)
+    elsif @category == 'politics'
+        @cat = Category.find(9)
+        @affirmations = Success.where('tags like ?', @sub) + LoveAndRelationship.where('tags like ?', @sub) + SelfFulfillment.where('tags like ?', @sub) + Lifestyle.where('tags like ?', @sub) + PhysicalHealth.where('tags like ?', @sub) + MentalHealth.where('tags like ?', @sub) + Spirituality.where('tags like ?', @sub) + SafeAndSecure.where('tags like ?', @sub)
 elsif @category == 'success'
       puts @category
       @cat = Category.find(1)

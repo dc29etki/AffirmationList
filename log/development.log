@@ -45745,3 +45745,549 @@ Processing by BlogController#viewblog as HTML
 Completed 200 OK in 258ms (Views: 252.0ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/" for ::1 at 2020-10-21 12:45:46 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.6ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1 ORDER BY "blogs"."id" ASC[0m  [["pinned", true]]
+  ↳ app/views/home/index.html.erb:40
+  Rendered home/index.html.erb within layouts/application (832.4ms)
+  Rendered shared/_navbar.html.erb (2.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 946ms (Views: 927.7ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-10-21 12:46:42 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (19.7ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 143ms (Views: 130.2ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-10-21 12:46:44 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tSYCvHk9Zqx6dYFwg7i/WV9VpcIu9ZYkDrMXl+wGnwoTXA7pmn7vJX8PVOdMHADlh+nmTtgsy9WxDgSeKsy3zg==", "user"=>{"email"=>"davidetkin@davidetkin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "davidetkin@davidetkin.com"], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:22
+Redirected to http://localhost:3000/
+Completed 302 Found in 144ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-10-21 12:46:44 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1 ORDER BY "blogs"."id" ASC[0m  [["pinned", true]]
+  ↳ app/views/home/index.html.erb:40
+  Rendered home/index.html.erb within layouts/application (52.3ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 123ms (Views: 121.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-21 12:46:45 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (11.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 121ms (Views: 112.8ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/view-affirmations/love_relationships/Friendship" for ::1 at 2020-10-21 12:46:51 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"love_relationships", "sub"=>"Friendship"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:17
+  [1m[36mSuccess Load (0.8ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1='Friendship' OR sub2='Friendship' OR sub3='Friendship' OR sub4='Friendship' OR sub5='Friendship')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:18
+  [1m[36mLoveAndRelationship Load (0.7ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1='Friendship' OR sub2='Friendship' OR sub3='Friendship' OR sub4='Friendship' OR sub5='Friendship')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:18
+  [1m[36mSelfFulfillment Load (4.2ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1='Friendship' OR sub2='Friendship' OR sub3='Friendship' OR sub4='Friendship' OR sub5='Friendship')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:18
+  [1m[36mLifestyle Load (4.6ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1='Friendship' OR sub2='Friendship' OR sub3='Friendship' OR sub4='Friendship' OR sub5='Friendship')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:18
+  [1m[36mPhysicalHealth Load (0.5ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1='Friendship' OR sub2='Friendship' OR sub3='Friendship' OR sub4='Friendship' OR sub5='Friendship')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:18
+  [1m[36mMentalHealth Load (0.6ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1='Friendship' OR sub2='Friendship' OR sub3='Friendship' OR sub4='Friendship' OR sub5='Friendship')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:18
+  [1m[36mSpirituality Load (0.6ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1='Friendship' OR sub2='Friendship' OR sub3='Friendship' OR sub4='Friendship' OR sub5='Friendship')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:18
+  [1m[36mSafeAndSecure Load (3.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1='Friendship' OR sub2='Friendship' OR sub3='Friendship' OR sub4='Friendship' OR sub5='Friendship')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:18
+  Rendering view_affirmations/index.html.erb within layouts/application
+  Rendered view_affirmations/index.html.erb within layouts/application (27.5ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 209ms (Views: 125.4ms | ActiveRecord: 33.2ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-21 12:46:53 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (4.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 130ms (Views: 125.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/view-affirmations/mental_health/Depression" for ::1 at 2020-10-21 12:46:54 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"mental_health", "sub"=>"Depression"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:29
+  [1m[36mSuccess Load (0.2ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1='Depression' OR sub2='Depression' OR sub3='Depression' OR sub4='Depression' OR sub5='Depression')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:30
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1='Depression' OR sub2='Depression' OR sub3='Depression' OR sub4='Depression' OR sub5='Depression')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:30
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1='Depression' OR sub2='Depression' OR sub3='Depression' OR sub4='Depression' OR sub5='Depression')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:30
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1='Depression' OR sub2='Depression' OR sub3='Depression' OR sub4='Depression' OR sub5='Depression')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:30
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1='Depression' OR sub2='Depression' OR sub3='Depression' OR sub4='Depression' OR sub5='Depression')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:30
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1='Depression' OR sub2='Depression' OR sub3='Depression' OR sub4='Depression' OR sub5='Depression')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:30
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1='Depression' OR sub2='Depression' OR sub3='Depression' OR sub4='Depression' OR sub5='Depression')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:30
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1='Depression' OR sub2='Depression' OR sub3='Depression' OR sub4='Depression' OR sub5='Depression')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:30
+  Rendering view_affirmations/index.html.erb within layouts/application
+  Rendered view_affirmations/index.html.erb within layouts/application (45.7ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 177ms (Views: 137.1ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-21 12:46:55 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (4.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 126ms (Views: 121.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/view-affirmations/self_fulfillment/Self-esteem" for ::1 at 2020-10-21 12:47:14 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"self_fulfillment", "sub"=>"Self-esteem"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:20
+  [1m[36mSuccess Load (0.2ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1='Self-esteem' OR sub2='Self-esteem' OR sub3='Self-esteem' OR sub4='Self-esteem' OR sub5='Self-esteem')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mLoveAndRelationship Load (0.2ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1='Self-esteem' OR sub2='Self-esteem' OR sub3='Self-esteem' OR sub4='Self-esteem' OR sub5='Self-esteem')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1='Self-esteem' OR sub2='Self-esteem' OR sub3='Self-esteem' OR sub4='Self-esteem' OR sub5='Self-esteem')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1='Self-esteem' OR sub2='Self-esteem' OR sub3='Self-esteem' OR sub4='Self-esteem' OR sub5='Self-esteem')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1='Self-esteem' OR sub2='Self-esteem' OR sub3='Self-esteem' OR sub4='Self-esteem' OR sub5='Self-esteem')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1='Self-esteem' OR sub2='Self-esteem' OR sub3='Self-esteem' OR sub4='Self-esteem' OR sub5='Self-esteem')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1='Self-esteem' OR sub2='Self-esteem' OR sub3='Self-esteem' OR sub4='Self-esteem' OR sub5='Self-esteem')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  [1m[36mSafeAndSecure Load (0.5ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1='Self-esteem' OR sub2='Self-esteem' OR sub3='Self-esteem' OR sub4='Self-esteem' OR sub5='Self-esteem')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:21
+  Rendering view_affirmations/index.html.erb within layouts/application
+  Rendered view_affirmations/index.html.erb within layouts/application (44.4ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 152ms (Views: 139.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-21 12:50:11 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (4.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 136ms (Views: 131.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-21 12:50:35 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (3.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 127ms (Views: 122.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-21 12:51:03 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (3.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (3.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 133ms (Views: 129.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-21 12:51:08 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (3.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 121ms (Views: 117.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-21 12:51:27 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (3.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (2.6ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 127ms (Views: 123.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-21 12:51:32 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (3.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 119ms (Views: 115.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-21 12:52:11 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (3.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (3.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 138ms (Views: 134.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/view-affirmations/coronavirus/coronavirus" for ::1 at 2020-10-21 12:52:23 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"coronavirus", "sub"=>"coronavirus"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:10
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  Rendering view_affirmations/index.html.erb within layouts/application
+  Rendered view_affirmations/index.html.erb within layouts/application (29.0ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 139ms (Views: 125.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-21 12:52:24 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (4.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (3.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 156ms (Views: 150.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/view-affirmations/coronavirus/coronavirus" for ::1 at 2020-10-21 12:52:28 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"coronavirus", "sub"=>"coronavirus"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:10
+  [1m[36mSuccess Load (0.2ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (tags like 'Coronavirus')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:11
+  Rendering view_affirmations/index.html.erb within layouts/application
+  Rendered view_affirmations/index.html.erb within layouts/application (47.2ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 199ms (Views: 187.1ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-21 12:53:52 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (3.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (4.6ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 141ms (Views: 137.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/view-affirmations/politics/politics" for ::1 at 2020-10-21 12:53:54 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"politics", "sub"=>"politics"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendering view_affirmations/index.html.erb within layouts/application
+  Rendered view_affirmations/index.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `category' for nil:NilClass):
+     6: <div id="content-area mb-5">
+     7:   <h1 class="text-center mt-3"></h1>
+     8:   
+     9:   <h1 class="text-center p-3" style="color:white;"><%= @cat.category %></h1>
+    10:   <div class="m-3 text-center">
+    11:     <a href="/affirmations" class="btn mx-auto color2 btn-primary" style="font-size: 20px;">	&larr; Back to All Categories</a>
+    12:   </div>
+  
+app/views/view_affirmations/index.html.erb:9:in `_app_views_view_affirmations_index_html_erb__240424954329008418_70247896168400'
+Started GET "/affirmations" for ::1 at 2020-10-21 12:53:56 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (4.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 144ms (Views: 139.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-21 12:53:56 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (4.2ms)
+Started GET "/affirmations" for ::1 at 2020-10-21 12:53:56 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (1.8ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (7.7ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (5.2ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 277ms (Views: 272.4ms | ActiveRecord: 1.5ms)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (3.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 308ms (Views: 301.4ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-21 12:54:42 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (13.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (12.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 140ms (Views: 128.6ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/view-affirmations/politics/politics" for ::1 at 2020-10-21 12:54:44 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"politics", "sub"=>"politics"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:13
+  [1m[36mSuccess Load (0.7ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (tags like 'Politics')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:14
+  [1m[36mLoveAndRelationship Load (0.5ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (tags like 'Politics')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:14
+  [1m[36mSelfFulfillment Load (0.5ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (tags like 'Politics')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:14
+  [1m[36mLifestyle Load (0.6ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (tags like 'Politics')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:14
+  [1m[36mPhysicalHealth Load (0.5ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (tags like 'Politics')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:14
+  [1m[36mMentalHealth Load (0.5ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (tags like 'Politics')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:14
+  [1m[36mSpirituality Load (0.6ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (tags like 'Politics')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:14
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (tags like 'Politics')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:14
+  Rendering view_affirmations/index.html.erb within layouts/application
+  Rendered view_affirmations/index.html.erb within layouts/application (14.1ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 181ms (Views: 114.3ms | ActiveRecord: 21.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-21 12:54:46 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (7.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (2.6ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 150ms (Views: 144.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-21 12:54:53 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (11.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (13.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 142ms (Views: 131.5ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/view-affirmations/politics/politics" for ::1 at 2020-10-21 12:54:54 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"politics", "sub"=>"politics"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:13
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (tags like 'Politics')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:14
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (tags like 'Politics')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:14
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (tags like 'Politics')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:14
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (tags like 'Politics')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:14
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (tags like 'Politics')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:14
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (tags like 'Politics')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:14
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (tags like 'Politics')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:14
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (tags like 'Politics')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:14
+  Rendering view_affirmations/index.html.erb within layouts/application
+  Rendered view_affirmations/index.html.erb within layouts/application (13.6ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 181ms (Views: 112.1ms | ActiveRecord: 24.4ms)
+
+
