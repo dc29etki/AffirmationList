@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  get 'document/privacypolicy' => 'document#privacypolicy'
+  get 'document/termsofservice' => 'document#termsofservice'
   devise_for :users, :controllers => { registrations: 'registrations' }
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   get 'affirmations' => 'affirmations#index'
