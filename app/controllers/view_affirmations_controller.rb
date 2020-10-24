@@ -1,10 +1,25 @@
 class ViewAffirmationsController < ApplicationController
   before_action :authenticate_user!
   
+  helper_method :is_fav
+  
+  def is_fav(a)
+    @favories.each do |f|
+      if f.affirmation == a.affirmation
+        return true
+      end
+    end
+    return false
+  end
+  
   def index
     @category = params[:category]
     @sub = params[:sub]
     @sub[0] = @sub[0].capitalize
+    
+    @favories = Favorite.where(user_id: current_user.id);
+    
+    
 
 
     if @category == 'coronavirus'

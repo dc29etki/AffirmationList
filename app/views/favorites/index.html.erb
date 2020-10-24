@@ -5,15 +5,15 @@
     <a href="/affirmations" class="btn mx-auto px-3 color2 btn-primary" style="font-size: 20px;">All Affirmations</a>
   </div>
   
-  <div class="affs mx-auto">
-    <div class="aff font-weight-bold text-center row p-3 m-3">
+  <div class="affs mx-auto p-3">
+    <div class="aff font-weight-bold text-center row p-1 m-1">
       <div class="col-5">Affirmation</div>
       <div class="col-3">Category</div>
       <div class="col-3">Sub-Category</div>
       <div class="col-1 text-left">Delete</div>
     </div>
     <% @affirmations.each do |a| %>
-      <div class="aff text-center row px-5 py-3 m-3">
+      <div class="aff text-center row p-2 m-2">
         <div class="col-5 text-left"><%= a.affirmation %></div>
         <div class="col-3"><%= a.cat %></div>
         <div class="col-3"><%= a.sub %></div>
@@ -24,12 +24,13 @@
     <% end %>
   </div>
   
+  
 </div>
 
 <style>
   .affs {
-    height: 75vh;
-    width: 85%;
+    height: 60vh;
+    width: 90%;
     overflow: scroll;
     border: 5px solid var(--color3);
     font-size: 24px;
@@ -45,7 +46,7 @@
   .delete a {
     color: white !important;
     background: var(--color3);
-    padding: 3px;
+    padding: 5px;
     font-weight: bold;
     border: 1px solid var(--color3);
     border-radius: 20%;

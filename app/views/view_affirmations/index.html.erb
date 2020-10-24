@@ -38,15 +38,31 @@
          <div class="aff row p-1 m-3" id="affirmation-<%= a.id %>">
            <div class="col-9" style="line-height: 100%;"><%= a.affirmation %></div>
            <div class="col-3 text-right">
-             <%= form_for Favorite.new do |f| %>
-               <%= f.hidden_field :affirmation, value: a.affirmation %>
-               <%= f.hidden_field :cat, value: @cat.category %>
-               <%= f.hidden_field :sub, value: @sub %>
-               <%= f.hidden_field :user_id, value: current_user.id %>
-               <%= button_tag( :class => "submitbutton") do %>
+             <% if is_fav(a) %>
+             <a href="/favorites">
+               <button class="bluesubmitbutton">
                  <i class="icon-star icon-white"></i>
+               </button>
+             </a>
+             <% else %>
+               <%= form_for Favorite.new do |f| %>
+                 <%= f.hidden_field :affirmation, value: a.affirmation %>
+                 <%= f.hidden_field :cat, value: @cat.category %>
+                 <%= f.hidden_field :sub, value: @sub %>
+                 <%= f.hidden_field :user_id, value: current_user.id %>
+               
+               
+                   <%= button_tag( :class => "submitbutton") do %>
+                     <i class="icon-star icon-white"></i>
+                   <% end %>
+               
+               
+               
+               
+               
                <% end %>
              <% end %>
+             
            </div>
          </div>
        <% end %>
@@ -77,6 +93,18 @@
   }
   .submitbutton:hover {
     background: #cd89a0 !important;
+  }
+  .bluesubmitbutton {
+    background: #00B2EE !important;
+    color:  white;
+    padding: 7.5px;
+    border-radius: 10px;
+    height: 100%;
+    font-size: 24px;
+    
+  }
+  .bluesubmitbutton:hover {
+    background: lightblue !important;
   }
   .p1 {
     font-size: 18pt;
