@@ -39,7 +39,6 @@ elsif @category == 'success'
       @cat = Category.find(8)
       @affirmations = Success.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub) + LoveAndRelationship.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub) + SelfFulfillment.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub) + Lifestyle.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub) + PhysicalHealth.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub) + MentalHealth.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub) + Spirituality.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub) + SafeAndSecure.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub)
     end
-    @affirmations = Success.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub) + LoveAndRelationship.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub)
   end
   
   
