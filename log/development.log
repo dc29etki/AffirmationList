@@ -54984,3 +54984,1824 @@ Processing by ViewAffirmationsController#index as HTML
 Completed 200 OK in 153ms (Views: 141.6ms | ActiveRecord: 2.5ms)
 
 
+  [1m[36mSuccess Load (5.0ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  [1m[36mLoveAndRelationship Load (4.0ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  [1m[36mSelfFulfillment Load (5.9ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  [1m[36mLifestyle Load (5.1ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  [1m[36mPhysicalHealth Load (4.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  [1m[36mMentalHealth Load (6.1ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  [1m[36mSpirituality Load (4.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  [1m[36mSafeAndSecure Load (0.6ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  [1m[36mMentalHealth Load (0.4ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  [1m[36mMentalHealth Load (0.4ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  [1m[36mSuccess Load (1.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (tags like 'politics')[0m
+  [1m[36mLoveAndRelationship Load (0.8ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (tags like 'politics')[0m
+  [1m[36mSelfFulfillment Load (0.6ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (tags like 'politics')[0m
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (tags like 'politics')[0m
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (tags like 'politics')[0m
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (tags like 'politics')[0m
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (tags like 'politics')[0m
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (tags like 'politics')[0m
+  [1m[36mSuccess Load (0.5ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (tags like 'politics')[0m
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (tags like 'politics')[0m
+  [1m[36mSelfFulfillment Load (0.5ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (tags like 'politics')[0m
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (tags like 'politics')[0m
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (tags like 'politics')[0m
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (tags like 'politics')[0m
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (tags like 'politics')[0m
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (tags like 'politics')[0m
+  [1m[36mSuccess Load (0.5ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (tags like 'politics')[0m
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (tags like 'politics')[0m
+  [1m[36mSelfFulfillment Load (0.2ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (tags like 'politics')[0m
+  [1m[36mLifestyle Load (0.4ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (tags like 'politics')[0m
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (tags like 'politics')[0m
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (tags like 'politics')[0m
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (tags like 'politics')[0m
+  [1m[36mSafeAndSecure Load (1.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (tags like 'politics')[0m
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (tags like 'Politics')[0m
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (tags like 'Politics')[0m
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (tags like 'Politics')[0m
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (tags like 'Politics')[0m
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (tags like 'Politics')[0m
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (tags like 'Politics')[0m
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (tags like 'Politics')[0m
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (tags like 'Politics')[0m
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  [1m[36mLoveAndRelationship Load (0.5ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+Started GET "/" for ::1 at 2020-10-26 15:39:29 -0400
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mBlog Load (6.7ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1 ORDER BY "blogs"."id" ASC[0m  [["pinned", true]]
+  ↳ app/views/home/index.html.erb:40
+  Rendered home/index.html.erb within layouts/application (659.8ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 799ms (Views: 779.1ms | ActiveRecord: 10.6ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-26 15:39:41 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (1.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (13.0ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 139ms (Views: 128.0ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/view-affirmations/success/Achievement" for ::1 at 2020-10-26 15:39:43 -0400
+  
+SyntaxError (/Users/davidetkin/GitHub Workspace/uppermation/AffirmationList/app/controllers/view_affirmations_controller.rb:68: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/view_affirmations_controller.rb:68: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/affirmations" for ::1 at 2020-10-26 15:39:46 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (4.2ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 138ms (Views: 133.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-26 15:39:46 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (3.6ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 125ms (Views: 120.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-26 15:39:46 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+Started GET "/affirmations" for ::1 at 2020-10-26 15:39:46 -0400
+  [1m[36mCategory Load (2.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+Processing by AffirmationsController#index as HTML
+  [1m[36mCategory Load (1.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (20.2ms)
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (6.4ms)
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 200ms (Views: 185.6ms | ActiveRecord: 1.7ms)
+
+
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 285ms (Views: 278.4ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/view-affirmations/success/Achievement" for ::1 at 2020-10-26 15:39:48 -0400
+  
+SyntaxError (/Users/davidetkin/GitHub Workspace/uppermation/AffirmationList/app/controllers/view_affirmations_controller.rb:68: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/view_affirmations_controller.rb:68: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/view-affirmations/success/Achievement" for ::1 at 2020-10-26 15:40:20 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Achievement"}
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-10-26 15:40:20 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.7ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 160ms (Views: 140.9ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-10-26 15:40:36 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.6ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 153ms (Views: 139.7ms | ActiveRecord: 3.4ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-10-26 15:40:38 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CXD56fbwydaw8mDbxoOP+hTBzIdTEjSD344RDZr3VtHNE5SfpyxjIdbPVC/q/Uz1aeWZ9yUiSqpLfl08Aypd2Q==", "user"=>{"email"=>"davidetkin@davidetkin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (4.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "davidetkin@davidetkin.com"], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:22
+Redirected to http://localhost:3000/view-affirmations/success/Achievement
+Completed 302 Found in 150ms (ActiveRecord: 4.7ms)
+
+
+Started GET "/view-affirmations/success/Achievement" for ::1 at 2020-10-26 15:40:38 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Achievement"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.6ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.6ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.6ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.6ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.6ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.6ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.6ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.6ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+Completed 500 Internal Server Error in 112ms (ActiveRecord: 30.8ms)
+
+
+  
+NoMethodError (undefined method `include?' for nil:NilClass):
+  
+app/controllers/view_affirmations_controller.rb:26:in `block in index'
+app/controllers/view_affirmations_controller.rb:25:in `each'
+app/controllers/view_affirmations_controller.rb:25:in `index'
+Started GET "/view-affirmations/success/Achievement" for ::1 at 2020-10-26 15:40:54 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Achievement"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.4ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mSuccess Load (0.5ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (4.5ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (47.6ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 332ms (Views: 179.6ms | ActiveRecord: 35.9ms)
+
+
+Started GET "/view-affirmations/success/Achievement" for ::1 at 2020-10-26 15:41:19 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Achievement"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.5ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.4ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+Completed 500 Internal Server Error in 116ms (ActiveRecord: 25.7ms)
+
+
+  
+NoMethodError (undefined method `length' for nil:NilClass):
+  
+app/controllers/view_affirmations_controller.rb:26:in `block in index'
+app/controllers/view_affirmations_controller.rb:25:in `each'
+app/controllers/view_affirmations_controller.rb:25:in `index'
+Started GET "/view-affirmations/success/Achievement" for ::1 at 2020-10-26 15:41:51 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Achievement"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.4ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.5ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT  "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 11]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 337ms (ActiveRecord: 27.3ms)
+
+
+  
+  [1m[36mCACHE Favorite Load (0.0ms)[0m  [1m[34mSELECT  "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 11]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `length' for #<ViewAffirmationsController:0x00007f92c79276e0>):
+  
+app/controllers/view_affirmations_controller.rb:26:in `block in index'
+app/controllers/view_affirmations_controller.rb:25:in `each'
+app/controllers/view_affirmations_controller.rb:25:in `index'
+Started GET "/view-affirmations/success/Achievement" for ::1 at 2020-10-26 15:42:02 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Achievement"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.5ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.5ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.4ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+Completed 500 Internal Server Error in 125ms (ActiveRecord: 27.5ms)
+
+
+  
+NoMethodError (undefined method `length' for nil:NilClass):
+  
+app/controllers/view_affirmations_controller.rb:26:in `block in index'
+app/controllers/view_affirmations_controller.rb:25:in `each'
+app/controllers/view_affirmations_controller.rb:25:in `index'
+Started GET "/view-affirmations/success/Achievement" for ::1 at 2020-10-26 15:42:09 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Achievement"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.5ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.5ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:40
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mLoveAndRelationship Load (0.2ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (27.3ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 280ms (Views: 153.7ms | ActiveRecord: 30.9ms)
+
+
+Started GET "/view-affirmations/success/Achievement" for ::1 at 2020-10-26 15:43:18 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Achievement"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.4ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.5ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:40
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSelfFulfillment Load (0.2ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (25.9ms)
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 343ms (Views: 198.0ms | ActiveRecord: 30.9ms)
+
+
+Started GET "/" for ::1 at 2020-10-28 15:36:23 -0400
+  [1m[35m (4.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mBlog Load (2.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1 ORDER BY "blogs"."id" ASC[0m  [["pinned", true]]
+  ↳ app/views/home/index.html.erb:40
+  Rendered home/index.html.erb within layouts/application (652.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 791ms (Views: 767.6ms | ActiveRecord: 13.9ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-10-28 15:36:29 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (20.5ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 157ms (Views: 137.8ms | ActiveRecord: 8.5ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-10-28 15:36:31 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zo8ukfZ1PI/TIeNZStJGy1jis6re/V6PGS3X3o6jsP8QFI2rNECXFFfcCJkBiLy0ZZS5qvD4l+8sUqqP/MIeJA==", "user"=>{"email"=>"davidetkin@davidetkin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (2.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "davidetkin@davidetkin.com"], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:22
+Redirected to http://localhost:3000/
+Completed 302 Found in 148ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/" for ::1 at 2020-10-28 15:36:31 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1 ORDER BY "blogs"."id" ASC[0m  [["pinned", true]]
+  ↳ app/views/home/index.html.erb:40
+  Rendered home/index.html.erb within layouts/application (52.3ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 135ms (Views: 131.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-28 15:36:33 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (1.8ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (13.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (2.6ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 130ms (Views: 118.8ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/view-affirmations/success/Achievement" for ::1 at 2020-10-28 15:36:37 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Achievement"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (6.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (3.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (6.5ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (5.0ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (6.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (5.1ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (5.9ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (5.9ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:40
+  [1m[36mSuccess Load (1.2ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (1.7ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (28.8ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 307ms (Views: 134.8ms | ActiveRecord: 73.7ms)
+
+
+Started GET "/view-affirmations/success/Wealth" for ::1 at 2020-10-28 15:36:38 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Wealth"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.4ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:40
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Wealth' OR sub2 like 'Wealth' OR sub3 like 'Wealth' OR sub4 like 'Wealth' OR sub5 like 'Wealth')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mLoveAndRelationship Load (0.2ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Wealth' OR sub2 like 'Wealth' OR sub3 like 'Wealth' OR sub4 like 'Wealth' OR sub5 like 'Wealth')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSelfFulfillment Load (0.2ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Wealth' OR sub2 like 'Wealth' OR sub3 like 'Wealth' OR sub4 like 'Wealth' OR sub5 like 'Wealth')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Wealth' OR sub2 like 'Wealth' OR sub3 like 'Wealth' OR sub4 like 'Wealth' OR sub5 like 'Wealth')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Wealth' OR sub2 like 'Wealth' OR sub3 like 'Wealth' OR sub4 like 'Wealth' OR sub5 like 'Wealth')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Wealth' OR sub2 like 'Wealth' OR sub3 like 'Wealth' OR sub4 like 'Wealth' OR sub5 like 'Wealth')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Wealth' OR sub2 like 'Wealth' OR sub3 like 'Wealth' OR sub4 like 'Wealth' OR sub5 like 'Wealth')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Wealth' OR sub2 like 'Wealth' OR sub3 like 'Wealth' OR sub4 like 'Wealth' OR sub5 like 'Wealth')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (11.9ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 155ms (Views: 120.2ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/view-affirmations/success/Achievement" for ::1 at 2020-10-28 15:36:47 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Achievement"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.7ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.8ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.4ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.6ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:40
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mLoveAndRelationship Load (0.6ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mMentalHealth Load (0.4ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Achievement' OR sub2 like 'Achievement' OR sub3 like 'Achievement' OR sub4 like 'Achievement' OR sub5 like 'Achievement')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (39.3ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 265ms (Views: 220.0ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/view-affirmations/success/Abundance" for ::1 at 2020-10-28 15:36:51 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Abundance"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:40
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mLoveAndRelationship Load (0.2ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSelfFulfillment Load (0.2ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:41
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (9.6ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 150ms (Views: 115.6ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/view-affirmations/success/Abundance" for ::1 at 2020-10-28 15:37:31 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Abundance"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.5ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.4ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:42
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:43
+  [1m[36mLoveAndRelationship Load (0.2ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:43
+  [1m[36mSelfFulfillment Load (0.2ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:43
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:43
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:43
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:43
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:43
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:43
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (11.8ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 1197ms (Views: 123.6ms | ActiveRecord: 30.3ms)
+
+
+Started GET "/view-affirmations/success/Abundance" for ::1 at 2020-10-28 15:39:59 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Abundance"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+Completed 500 Internal Server Error in 119ms (ActiveRecord: 25.0ms)
+
+
+  
+NoMethodError (undefined method `destroy' for :group:Symbol):
+  
+app/controllers/view_affirmations_controller.rb:28:in `each'
+app/controllers/view_affirmations_controller.rb:28:in `block in index'
+app/controllers/view_affirmations_controller.rb:26:in `each'
+app/controllers/view_affirmations_controller.rb:26:in `index'
+Started GET "/view-affirmations/success/Abundance" for ::1 at 2020-10-28 15:41:10 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Abundance"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.5ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.4ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCACHE Success Load (0.0ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:26
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:37
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mLoveAndRelationship Load (0.2ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (15.4ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 283ms (Views: 154.9ms | ActiveRecord: 30.6ms)
+
+
+Started GET "/view-affirmations/success/Wealth" for ::1 at 2020-10-28 15:49:53 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Wealth"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.6ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.7ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.6ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.5ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.6ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.4ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.7ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.6ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCACHE Success Load (0.0ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:26
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:37
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Wealth' OR sub2 like 'Wealth' OR sub3 like 'Wealth' OR sub4 like 'Wealth' OR sub5 like 'Wealth')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Wealth' OR sub2 like 'Wealth' OR sub3 like 'Wealth' OR sub4 like 'Wealth' OR sub5 like 'Wealth')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Wealth' OR sub2 like 'Wealth' OR sub3 like 'Wealth' OR sub4 like 'Wealth' OR sub5 like 'Wealth')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Wealth' OR sub2 like 'Wealth' OR sub3 like 'Wealth' OR sub4 like 'Wealth' OR sub5 like 'Wealth')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Wealth' OR sub2 like 'Wealth' OR sub3 like 'Wealth' OR sub4 like 'Wealth' OR sub5 like 'Wealth')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Wealth' OR sub2 like 'Wealth' OR sub3 like 'Wealth' OR sub4 like 'Wealth' OR sub5 like 'Wealth')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Wealth' OR sub2 like 'Wealth' OR sub3 like 'Wealth' OR sub4 like 'Wealth' OR sub5 like 'Wealth')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Wealth' OR sub2 like 'Wealth' OR sub3 like 'Wealth' OR sub4 like 'Wealth' OR sub5 like 'Wealth')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.4ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (15.7ms)
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 284ms (Views: 231.1ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/view-affirmations/success/Career" for ::1 at 2020-10-28 15:50:01 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Career"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCACHE Success Load (0.0ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:26
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:37
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mLoveAndRelationship Load (0.2ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (25.7ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 158ms (Views: 125.2ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/view-affirmations/success/Career" for ::1 at 2020-10-28 15:50:38 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Career"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.4ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCACHE Success Load (0.0ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:26
+Completed 500 Internal Server Error in 126ms (ActiveRecord: 30.9ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/view_affirmations_controller.rb:26:in `+'
+app/controllers/view_affirmations_controller.rb:26:in `index'
+Started GET "/view-affirmations/success/Career" for ::1 at 2020-10-28 15:50:53 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Career"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.4ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCACHE Success Load (0.0ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:27
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mLoveAndRelationship Load (0.2ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mSelfFulfillment Load (0.2ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (48.5ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 381ms (Views: 246.8ms | ActiveRecord: 31.0ms)
+
+
+Started GET "/view-affirmations/success/Career" for ::1 at 2020-10-28 15:51:17 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Career"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.5ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.4ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCACHE Success Load (0.0ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:27
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:38
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:39
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (36.8ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 286ms (Views: 155.6ms | ActiveRecord: 30.9ms)
+
+
+Started GET "/view-affirmations/success/Career" for ::1 at 2020-10-28 15:52:03 -0400
+  
+ActionController::RoutingError (undefined method `length' for nil:NilClass):
+  
+app/controllers/view_affirmations_controller.rb:61:in `<class:ViewAffirmationsController>'
+app/controllers/view_affirmations_controller.rb:1:in `<top (required)>'
+Started GET "/view-affirmations/success/Career" for ::1 at 2020-10-28 15:52:12 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Career"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.5ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.4ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.4ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:35
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (33.3ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 294ms (Views: 155.4ms | ActiveRecord: 31.9ms)
+
+
+Started GET "/view-affirmations/success/Career" for ::1 at 2020-10-28 15:52:26 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Career"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.5ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.5ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.4ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.4ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.5ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:35
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (36.4ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 309ms (Views: 149.7ms | ActiveRecord: 35.8ms)
+
+
+Started GET "/view-affirmations/success/Career" for ::1 at 2020-10-28 15:56:16 -0400
+  
+SyntaxError (/Users/davidetkin/GitHub Workspace/uppermation/AffirmationList/app/controllers/view_affirmations_controller.rb:63: syntax error, unexpected '\n', expecting &. or :: or '[' or '.'
+    end
+       ^):
+  
+app/controllers/view_affirmations_controller.rb:63: syntax error, unexpected '\n', expecting &. or :: or '[' or '.'
+Started GET "/view-affirmations/success/Career" for ::1 at 2020-10-28 15:56:24 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Career"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.6ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.4ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.5ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:35
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (34.0ms)
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 334ms (Views: 184.0ms | ActiveRecord: 35.3ms)
+
+
+Started GET "/view-affirmations/success/Career" for ::1 at 2020-10-28 15:56:32 -0400
+  
+SyntaxError (/Users/davidetkin/GitHub Workspace/uppermation/AffirmationList/app/controllers/view_affirmations_controller.rb:63: syntax error, unexpected '\n', expecting &. or :: or '[' or '.'
+    end
+       ^):
+  
+app/controllers/view_affirmations_controller.rb:63: syntax error, unexpected '\n', expecting &. or :: or '[' or '.'
+Started GET "/view-affirmations/success/Career" for ::1 at 2020-10-28 15:56:41 -0400
+  
+SyntaxError (/Users/davidetkin/GitHub Workspace/uppermation/AffirmationList/app/controllers/view_affirmations_controller.rb:61: syntax error, unexpected '\n', expecting &. or :: or '[' or '.'
+    end
+       ^):
+  
+app/controllers/view_affirmations_controller.rb:61: syntax error, unexpected '\n', expecting &. or :: or '[' or '.'
+Started GET "/view-affirmations/success/Career" for ::1 at 2020-10-28 15:56:46 -0400
+  
+SyntaxError (/Users/davidetkin/GitHub Workspace/uppermation/AffirmationList/app/controllers/view_affirmations_controller.rb:61: syntax error, unexpected '\n', expecting &. or :: or '[' or '.'
+    end
+       ^):
+  
+app/controllers/view_affirmations_controller.rb:61: syntax error, unexpected '\n', expecting &. or :: or '[' or '.'
+Started GET "/view-affirmations/success/Career" for ::1 at 2020-10-28 15:56:59 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Career"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.4ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:35
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSelfFulfillment Load (0.2ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (31.8ms)
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 300ms (Views: 174.3ms | ActiveRecord: 31.3ms)
+
+
+Started GET "/view-affirmations/success/Career" for ::1 at 2020-10-28 15:57:19 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Career"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:35
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLoveAndRelationship Load (0.2ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSelfFulfillment Load (0.2ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+Completed 500 Internal Server Error in 139ms (ActiveRecord: 30.2ms)
+
+
+  
+NoMethodError (undefined method `contains?' for #<Array:0x00007ffd3bc9bab8>):
+  
+app/controllers/view_affirmations_controller.rb:60:in `block in index'
+app/controllers/view_affirmations_controller.rb:59:in `each'
+app/controllers/view_affirmations_controller.rb:59:in `index'
+Started GET "/view-affirmations/success/Career" for ::1 at 2020-10-28 15:57:25 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Career"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.5ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.5ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.5ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:35
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLoveAndRelationship Load (0.2ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 30.8ms)
+
+
+  
+NoMethodError (undefined method `includes?' for #<Array:0x00007ffd39b9b548>
+Did you mean?  include?):
+  
+app/controllers/view_affirmations_controller.rb:60:in `block in index'
+app/controllers/view_affirmations_controller.rb:59:in `each'
+app/controllers/view_affirmations_controller.rb:59:in `index'
+Started GET "/view-affirmations/success/Career" for ::1 at 2020-10-28 15:57:30 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Career"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.5ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:35
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Career' OR sub2 like 'Career' OR sub3 like 'Career' OR sub4 like 'Career' OR sub5 like 'Career')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (45.2ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 325ms (Views: 179.5ms | ActiveRecord: 34.2ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-28 15:57:51 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (3.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 139ms (Views: 134.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/view-affirmations/physical_health/Nutrition" for ::1 at 2020-10-28 15:57:53 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"physical_health", "sub"=>"Nutrition"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.5ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:47
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Nutrition' OR sub2 like 'Nutrition' OR sub3 like 'Nutrition' OR sub4 like 'Nutrition' OR sub5 like 'Nutrition')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:48
+  [1m[36mLoveAndRelationship Load (0.2ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Nutrition' OR sub2 like 'Nutrition' OR sub3 like 'Nutrition' OR sub4 like 'Nutrition' OR sub5 like 'Nutrition')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:48
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Nutrition' OR sub2 like 'Nutrition' OR sub3 like 'Nutrition' OR sub4 like 'Nutrition' OR sub5 like 'Nutrition')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:48
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Nutrition' OR sub2 like 'Nutrition' OR sub3 like 'Nutrition' OR sub4 like 'Nutrition' OR sub5 like 'Nutrition')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:48
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Nutrition' OR sub2 like 'Nutrition' OR sub3 like 'Nutrition' OR sub4 like 'Nutrition' OR sub5 like 'Nutrition')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:48
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Nutrition' OR sub2 like 'Nutrition' OR sub3 like 'Nutrition' OR sub4 like 'Nutrition' OR sub5 like 'Nutrition')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:48
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Nutrition' OR sub2 like 'Nutrition' OR sub3 like 'Nutrition' OR sub4 like 'Nutrition' OR sub5 like 'Nutrition')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:48
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Nutrition' OR sub2 like 'Nutrition' OR sub3 like 'Nutrition' OR sub4 like 'Nutrition' OR sub5 like 'Nutrition')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:48
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (27.2ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 173ms (Views: 139.1ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/view-affirmations/physical_health/Physical%20energy" for ::1 at 2020-10-28 15:58:46 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"physical_health", "sub"=>"Physical energy"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.5ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.4ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.4ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:47
+  [1m[36mSuccess Load (0.2ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Physical energy' OR sub2 like 'Physical energy' OR sub3 like 'Physical energy' OR sub4 like 'Physical energy' OR sub5 like 'Physical energy')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:48
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Physical energy' OR sub2 like 'Physical energy' OR sub3 like 'Physical energy' OR sub4 like 'Physical energy' OR sub5 like 'Physical energy')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:48
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Physical energy' OR sub2 like 'Physical energy' OR sub3 like 'Physical energy' OR sub4 like 'Physical energy' OR sub5 like 'Physical energy')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:48
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Physical energy' OR sub2 like 'Physical energy' OR sub3 like 'Physical energy' OR sub4 like 'Physical energy' OR sub5 like 'Physical energy')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:48
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Physical energy' OR sub2 like 'Physical energy' OR sub3 like 'Physical energy' OR sub4 like 'Physical energy' OR sub5 like 'Physical energy')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:48
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Physical energy' OR sub2 like 'Physical energy' OR sub3 like 'Physical energy' OR sub4 like 'Physical energy' OR sub5 like 'Physical energy')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:48
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Physical energy' OR sub2 like 'Physical energy' OR sub3 like 'Physical energy' OR sub4 like 'Physical energy' OR sub5 like 'Physical energy')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:48
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Physical energy' OR sub2 like 'Physical energy' OR sub3 like 'Physical energy' OR sub4 like 'Physical energy' OR sub5 like 'Physical energy')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:48
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (23.0ms)
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 183ms (Views: 149.3ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-28 16:00:46 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (12.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (22.4ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 178ms (Views: 166.3ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/view-affirmations/success/Abundance" for ::1 at 2020-10-28 16:00:48 -0400
+  
+SyntaxError (/Users/davidetkin/GitHub Workspace/uppermation/AffirmationList/app/controllers/view_affirmations_controller.rb:66: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/view_affirmations_controller.rb:66: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/affirmations" for ::1 at 2020-10-28 16:00:50 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (4.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 141ms (Views: 136.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-28 16:00:50 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (4.3ms)
+Started GET "/affirmations" for ::1 at 2020-10-28 16:00:50 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (6.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (5.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 220ms (Views: 215.9ms | ActiveRecord: 1.2ms)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (3.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 233ms (Views: 227.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/affirmations" for ::1 at 2020-10-28 16:00:56 -0400
+Processing by AffirmationsController#index as HTML
+  Rendering affirmations/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY id ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/affirmations/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY id ASC[0m
+  ↳ app/views/affirmations/index.html.erb:19
+  Rendered affirmations/index.html.erb within layouts/application (21.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  Rendered shared/_navbar.html.erb (14.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 152ms (Views: 139.2ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/view-affirmations/success/Abundance" for ::1 at 2020-10-28 16:00:57 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Abundance"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.7ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.9ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.6ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.5ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.6ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.5ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.5ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.5ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:35
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (15.5ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 310ms (Views: 181.9ms | ActiveRecord: 30.3ms)
+
+
+Started GET "/view-affirmations/success/Abundance" for ::1 at 2020-10-28 16:03:20 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Abundance"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.5ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.7ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.6ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.5ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.6ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.5ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:35
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLoveAndRelationship Load (0.2ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (19.6ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 195ms (Views: 155.1ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/view-affirmations/success/Abundance" for ::1 at 2020-10-28 16:03:35 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Abundance"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.5ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.5ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.4ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.4ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:35
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSafeAndSecure Load (0.2ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (24.8ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 277ms (Views: 143.3ms | ActiveRecord: 31.7ms)
+
+
+Started GET "/view-affirmations/success/Abundance" for ::1 at 2020-10-28 16:08:02 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Abundance"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.4ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.6ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.4ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.3ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.6ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.5ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:35
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLoveAndRelationship Load (0.2ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLifestyle Load (0.3ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSpirituality Load (0.3ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (23.5ms)
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 303ms (Views: 158.7ms | ActiveRecord: 32.7ms)
+
+

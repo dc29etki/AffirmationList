@@ -12,6 +12,7 @@ class ViewAffirmationsController < ApplicationController
     return false
   end
   
+  
   def index
     @category = params[:category]
     @sub = params[:sub]
@@ -20,7 +21,8 @@ class ViewAffirmationsController < ApplicationController
     @favories = Favorite.where(user_id: current_user.id);
     
     
-
+    @all_affirmations = (Success.all + LoveAndRelationship.all + SelfFulfillment.all + Lifestyle.all + PhysicalHealth.all + MentalHealth.all + Spirituality.all + SafeAndSecure.all)
+    
 
     if @category == 'coronavirus'
       @cat = Category.find(10)
@@ -54,7 +56,11 @@ elsif @category == 'success'
       @cat = Category.find(8)
       @affirmations = Success.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub) + LoveAndRelationship.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub) + SelfFulfillment.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub) + Lifestyle.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub) + PhysicalHealth.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub) + MentalHealth.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub) + Spirituality.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub) + SafeAndSecure.where('sub1 like ? OR sub2 like ? OR sub3 like ? OR sub4 like ? OR sub5 like ?', @sub, @sub, @sub, @sub, @sub)
     end
+    
+    @affirmations = @affirmations.uniq { |a| [a.affirmation] }
+    
   end
+  
   
   
   
