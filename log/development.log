@@ -56805,3 +56805,310 @@ Processing by ViewAffirmationsController#index as HTML
 Completed 200 OK in 303ms (Views: 158.7ms | ActiveRecord: 32.7ms)
 
 
+Started GET "/view-affirmations/success/Abundance" for ::1 at 2020-10-28 16:09:36 -0400
+Processing by ViewAffirmationsController#index as HTML
+  Parameters: {"category"=>"success", "sub"=>"Abundance"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb:17
+  [1m[36mSuccess Load (0.4ms)[0m  [1m[34mSELECT "successes".* FROM "successes"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLoveAndRelationship Load (0.3ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSelfFulfillment Load (0.4ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mLifestyle Load (0.4ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mPhysicalHealth Load (0.4ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mMentalHealth Load (0.3ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSpirituality Load (0.7ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mSafeAndSecure Load (0.7ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures"[0m
+  ↳ app/controllers/view_affirmations_controller.rb:24
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:35
+  [1m[36mSuccess Load (0.3ms)[0m  [1m[34mSELECT "successes".* FROM "successes" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLoveAndRelationship Load (0.2ms)[0m  [1m[34mSELECT "love_and_relationships".* FROM "love_and_relationships" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSelfFulfillment Load (0.3ms)[0m  [1m[34mSELECT "self_fulfillments".* FROM "self_fulfillments" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mLifestyle Load (0.2ms)[0m  [1m[34mSELECT "lifestyles".* FROM "lifestyles" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mPhysicalHealth Load (0.2ms)[0m  [1m[34mSELECT "physical_healths".* FROM "physical_healths" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mMentalHealth Load (0.2ms)[0m  [1m[34mSELECT "mental_healths".* FROM "mental_healths" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSpirituality Load (0.2ms)[0m  [1m[34mSELECT "spiritualities".* FROM "spiritualities" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  [1m[36mSafeAndSecure Load (0.3ms)[0m  [1m[34mSELECT "safe_and_secures".* FROM "safe_and_secures" WHERE (sub1 like 'Abundance' OR sub2 like 'Abundance' OR sub3 like 'Abundance' OR sub4 like 'Abundance' OR sub5 like 'Abundance')[0m
+  ↳ app/controllers/view_affirmations_controller.rb:36
+  Rendering view_affirmations/index.html.erb within layouts/application
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/view_affirmations_controller.rb:7
+  Rendered view_affirmations/index.html.erb within layouts/application (19.0ms)
+  Rendered shared/_navbar.html.erb (2.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 245ms (Views: 191.9ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/" for ::1 at 2020-10-30 14:13:07 -0400
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.4.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.4.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3303779277567667920)[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+Migrating to CreateAbouts (20201030181242)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (2.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(3303779277567667920)[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+Started GET "/" for ::1 at 2020-10-30 14:14:50 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.4.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.4.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-10-30 14:14:52 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.4.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.4.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3303779277567667920)[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+Migrating to CreateAbouts (20201030181242)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(3303779277567667920)[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3303779277567667920)[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+Migrating to CreateAbouts (20201030181242)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(3303779277567667920)[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3303779277567667920)[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+Migrating to CreateAbouts (20201030181242)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (35.3ms)[0m  [1m[35mCREATE TABLE "abouts" ("id" bigserial primary key, "about" character varying)[0m
+  ↳ db/migrate/20201030181242_create_abouts.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (2.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201030181242"]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (1.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(3303779277567667920)[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/gems/ruby-2.5.3/bin/rake:23
+Started GET "/" for ::1 at 2020-10-30 14:16:17 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/davidetkin/.rvm/rubies/ruby-2.5.3/lib/ruby/gems/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mBlog Load (3.9ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs" WHERE "blogs"."pinned" = $1 ORDER BY "blogs"."id" ASC[0m  [["pinned", true]]
+  ↳ app/views/home/index.html.erb:40
+  Rendered home/index.html.erb within layouts/application (688.1ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 805ms (Views: 787.7ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/about" for ::1 at 2020-10-30 14:16:21 -0400
+Processing by AboutController#index as HTML
+  [1m[36mAbout Load (0.9ms)[0m  [1m[34mSELECT  "abouts".* FROM "abouts" ORDER BY "abouts"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/about_controller.rb:3
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 137ms (Views: 121.2ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/about" for ::1 at 2020-10-30 14:17:04 -0400
+Processing by AboutController#index as HTML
+  [1m[36mAbout Load (0.2ms)[0m  [1m[34mSELECT  "abouts".* FROM "abouts" ORDER BY "abouts"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/about_controller.rb:3
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (3.1ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 152ms (Views: 146.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/about" for ::1 at 2020-10-30 14:17:27 -0400
+Processing by AboutController#index as HTML
+  [1m[36mAbout Load (0.3ms)[0m  [1m[34mSELECT  "abouts".* FROM "abouts" ORDER BY "abouts"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/about_controller.rb:3
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 129ms (Views: 125.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/about" for ::1 at 2020-10-30 14:17:49 -0400
+Processing by AboutController#index as HTML
+  [1m[36mAbout Load (0.3ms)[0m  [1m[34mSELECT  "abouts".* FROM "abouts" ORDER BY "abouts"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/about_controller.rb:3
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 131ms (Views: 126.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/about" for ::1 at 2020-10-30 14:18:03 -0400
+Processing by AboutController#index as HTML
+  [1m[36mAbout Load (0.4ms)[0m  [1m[34mSELECT  "abouts".* FROM "abouts" ORDER BY "abouts"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/about_controller.rb:3
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 125ms (Views: 120.8ms | ActiveRecord: 0.4ms)
+
+
