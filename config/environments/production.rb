@@ -73,10 +73,10 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: 'www.affirmationlist.com' }
   config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = {
-        :address              => "smtp.gmail.com",
+        :address              => "smtp.office365.com",
         :port                 => 587,
-        :user_name            => 'affirmationlist@gmail.com',
-        :password             => 'domji7-gapdog-Gybzim',
+        :user_name            => 'support@affirmationlist.com',
+        :password             => 'Sophie18$',
         :authentication       => 'plain',
         :enable_starttls_auto => true  }
   
