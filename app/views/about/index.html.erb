@@ -1,24 +1,36 @@
 <div id="content-area">
-  <h1 class="text-center mt-5">About AffirmationList</h1>
-  <div class="about text-center w-75 p-5 m-5 mx-auto border text-white">
-    <%= @about.about.html_safe %>
+  <h1 class="text-center mt-5">About Us</h1>
+  
+  <div class="blogs w-75 mx-auto m-5">
+    <div class="row">
+      
+     <div class="post p1 m-5">
+       <%= @about.about.html_safe %>
+     </div>
+
+    </div>
   </div>
+  <div class="spacer p-5 m-5"> </div>
+  
   
 </div>
 
 
 
 <style>
-  .about {
-    font-size: 24px;
-  }
   .p1 {
     font-size: 18pt;
     padding: 50px;
     background: #eee;
   }
-  h1{
-    color: white;
-    font-size: 3rem;
+  .blogs {
+    border: 5px solid var(--color3);
+    background: #eee;
+  }
+  .post a {
+    color: blue;
+  }
+  .tags {
+    color: var(--color2);
   }
 </style>
