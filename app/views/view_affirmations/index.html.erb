@@ -32,7 +32,7 @@
      <div class="p1 mx-auto" style="width: 100%;">
        <div class="aff row p-1 m-3 font-weight-bold">
          <div class="col-8">Affirmation</div>
-         <a href="/favorites" class="col-4 text-right">Save to Favorites</a>
+         <a href="/favorites" class="col-4 text-right" style="color: var(--color1);">Save to Favorites</a>
         </div>
        <% @affirmations.each do |a| %>
          <div class="aff row p-1 m-3" id="affirmation-<%= a.id %>">
@@ -95,7 +95,7 @@
     background: #cd89a0 !important;
   }
   .bluesubmitbutton {
-    background: #00B2EE !important;
+    background: var(--color1) !important;
     color:  white;
     padding: 7.5px;
     border-radius: 10px;

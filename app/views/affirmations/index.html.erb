@@ -15,14 +15,14 @@
     				
             <nav class="nav1">
     					<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-    						<a class="nav-item nav-link active mt-0" id="nav-<%= @categories.first.category_safe %>-tab" data-toggle="tab" href="#nav-<%= @categories.first.category_safe %>" role="tab" aria-controls="nav-<%= @categories.first.category_safe %>" aria-selected="true"><%= @categories.first.category %></a>
+    						<a class="nav-item nav-link active mt-0 p-0" id="nav-<%= @categories.first.category_safe %>-tab" data-toggle="tab" href="#nav-<%= @categories.first.category_safe %>" role="tab" aria-controls="nav-<%= @categories.first.category_safe %>" aria-selected="true"><%= @categories.first.category %></a>
                 <% @categories.drop(1).each do |c| %>
                   <% if c.category_safe == 'coronavirus'%>
-        						<a class="nav-item nav-link" id="nav-<%= c.category_safe %>-tab" href="/view-affirmations/coronavirus/coronavirus"><%= c.category %></a>
+        						<a class="nav-item nav-link p-0" id="nav-<%= c.category_safe %>-tab" href="/view-affirmations/coronavirus/coronavirus"><%= c.category %></a>
                   <% elsif c.category_safe == 'politics'%>
-        						<a class="nav-item nav-link" id="nav-<%= c.category_safe %>-tab" href="/view-affirmations/politics/politics"><%= c.category %></a>
+        						<a class="nav-item nav-link p-0" id="nav-<%= c.category_safe %>-tab" href="/view-affirmations/politics/politics"><%= c.category %></a>
                   <% else %>
-      						  <a class="nav-item nav-link" id="nav-<%= c.category_safe %>-tab" data-toggle="tab" href="#nav-<%= c.category_safe %>" role="tab" aria-controls="nav-<%= c.category_safe %>" aria-selected="true"><%= c.category %></a>
+      						  <a class="nav-item nav-link p-0" id="nav-<%= c.category_safe %>-tab" data-toggle="tab" href="#nav-<%= c.category_safe %>" role="tab" aria-controls="nav-<%= c.category_safe %>" aria-selected="true"><%= c.category %></a>
                   <% end %>
                 <% end %>
                 
@@ -147,7 +147,7 @@
 
   .column1 {
     flex: 30%;
-    height: 65vh !important;
+    height: 60vh !important;
   }
   .column2 {
     flex: 70%;
@@ -162,7 +162,7 @@
     background: var(--color3);
     color: white;
     font-size: 24px;
-    height: 65vh !important;
+    height: 60vh !important;
   }
   
   #nav-tab {
@@ -182,7 +182,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     margin-top: 0;
-    min-height: 65vh;
+    min-height: 60vh;
   }
   
   .nav-tabs {
