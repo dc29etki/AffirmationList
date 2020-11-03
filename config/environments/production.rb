@@ -71,16 +71,13 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
   config.action_mailer.default_url_options = { host: 'www.affirmationlist.com' }
-  config.action_mailer.perform_deliveries = true
-  config.action_mailer.default :charset => "utf-8"
   config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = {
-        :address              => "smtp.office365.com",
-        :from              => "smtp.office365.com",
+        :address              => "smtp.gmail.com",
         :port                 => 587,
-        :authentication       => :login,
-        :user_name            => 'support@affirmationlist.com',
-        :password             => 'Sophie18$',
+        :user_name            => 'affirmationlist@gmail.com',
+        :password             => 'domji7-gapdog-Gybzim',
+        :authentication       => 'plain',
         :enable_starttls_auto => true  }
   
   # Ignore bad email addresses and do not raise email delivery errors.
