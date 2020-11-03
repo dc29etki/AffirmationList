@@ -27,9 +27,20 @@ RailsAdmin.config do |config|
   # config.show_gravatar = true
   
   config.model Blog do
+    edit do
+      # For RailsAdmin >= 0.5.0
+      field :text, :ck_editor
+      # For RailsAdmin < 0.5.0
+      # field :description do
+      #   ckeditor true
+      # end
+    end
+  end 
+  
+  config.model About do
       edit do
         # For RailsAdmin >= 0.5.0
-        field :text, :ck_editor
+        field :about, :ck_editor
         # For RailsAdmin < 0.5.0
         # field :description do
         #   ckeditor true
