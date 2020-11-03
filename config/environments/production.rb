@@ -75,9 +75,10 @@ Rails.application.configure do
     config.action_mailer.smtp_settings = {
         :address              => "smtp.office365.com",
         :port                 => 587,
+        :authentication       => :login,
         :user_name            => 'support@affirmationlist.com',
         :password             => 'Sophie18$',
-        :authentication       => 'plain',
+        :domain               => 'affirmationlist.com',
         :enable_starttls_auto => true  }
   
   # Ignore bad email addresses and do not raise email delivery errors.
