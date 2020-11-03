@@ -2,6 +2,10 @@
   "name": "uppermation",
   "private": true,
   "dependencies": {
+    "@rails/webpacker": "^5.2.1",
     "body-scroll-lock": "^3.0.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
   }
 }

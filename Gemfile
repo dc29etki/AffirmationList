@@ -18,6 +18,8 @@ gem 'rails_admin', '~> 2.0'
 gem 'devise'
 gem "sass_rails_patch", "~> 0.0.1"
 gem 'seed_dump'
+gem 'webpacker'
+gem 'ckeditor'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'

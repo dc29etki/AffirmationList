@@ -18,6 +18,8 @@
 //= require turbolinks
 //= require_tree .
 
+require("trix")
+require("@rails/actiontext")
   
   
   function quiz(question, value){
