@@ -20,35 +20,3 @@
 
 require("trix")
 require("@rails/actiontext")
-  
-  
-  function quiz(question, value){
-    sessionStorage.setItem(question,value);
-    if (window.location.pathname == '/welcome/index') {
-      window.location.href = '/welcome/page2'
-    }
-    if (window.location.pathname == '/') {
-      window.location.href = '/welcome/page2'
-    }
-    else if (window.location.pathname == '/welcome/page2') {
-      window.location.href = '/welcome/page3'
-    }
-    else if (window.location.pathname == '/welcome/page3') {
-      window.location.href = '/welcome/page4'
-    }
-    else if (window.location.pathname == '/welcome/page4') {
-      window.location.href = '/welcome/result'
-    }
-  }
-  
-  function goback(){
-    if (window.location.pathname == '/welcome/page2') {
-      window.location.href = '/welcome/index'
-    }
-    else if (window.location.pathname == '/welcome/page3') {
-      window.location.href = '/welcome/page2'
-    }
-    else if (window.location.pathname == '/welcome/page4') {
-      window.location.href = '/welcome/page3'
-    }
-  }
